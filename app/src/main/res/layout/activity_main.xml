@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#C5E8E5"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_margin="14dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white"
+
+
+            android:layout_below="@+id/first"
+            android:baselineAligned="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <RelativeLayout
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/tvFullName"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="23sp"
+                    android:layout_marginTop="10dp"
+                    android:padding="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:letterSpacing="0.4"
+                    android:text="SARA  BELLUM"/>
+                <TextView
+                    android:id="@+id/tvAbout"
+                    android:padding="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvFullName"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="25dp"
+                    android:text="ABOUT"/>
+                <TextView
+                    android:id="@+id/tvAboutInfo"
+                    android:padding="4dp"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvAbout"
+                    android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 150."/>
+
+                <LinearLayout
+                    android:id="@+id/linear2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="25dp"
+                    android:layout_below="@+id/tvAboutInfo">
+                    <RelativeLayout
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/tvDOB"
+                            android:textColor="@color/black"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="40dp"
+                            android:text="D.O.B"/>
+                        <TextView
+                            android:id="@+id/tvTime"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:textColor="@color/black"
+                            android:layout_below="@+id/tvDOB"
+                            android:text="Time"/>
+                        <TextView
+                            android:id="@+id/tvAge"
+                            android:padding="2dp"
+                            android:layout_height="40dp"
+                            android:layout_width="match_parent"
+                            android:textColor="@color/black"
+                            android:layout_below="@+id/tvTime"
+                            android:text="Age"/>
+                        <TextView
+                            android:id="@+id/tvWeight"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:textColor="@color/black"
+                            android:layout_below="@+id/tvAge"
+                            android:text="Weight"/>
+                        <TextView
+                            android:id="@+id/tvHeight"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:textColor="@color/black"
+                            android:layout_below="@+id/tvWeight"
+                            android:text="Height"/>
+                        <TextView
+                            android:id="@+id/tvBloodGroup"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/tvHeight"
+                            android:textColor="@color/black"
+                            android:text="Blood Group"/>
+                        <TextView
+                            android:id="@+id/tvHobbies"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/tvBloodGroup"
+                            android:textColor="@color/black"
+                            android:text="Hobbies"/>
+                        <TextView
+                            android:id="@+id/tvEducation"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/tvHobbies"
+                            android:textColor="@color/black"
+                            android:text="Education"/>
+                        <TextView
+                            android:id="@+id/tvLanguage"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/tvEducation"
+                            android:textColor="@color/black"
+                            android:text="Language"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+
+
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/tvDOBInfo"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="25/10/1995"/>
+                        <TextView
+                            android:id="@+id/tvTimeInfo"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/tvDOBInfo"
+                            android:text="9:10 PM"/>
+                        <TextView
+                            android:id="@+id/tvAgeInfo"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/tvTimeInfo"
+                            android:text="25 Years"/>
+                        <TextView
+                            android:id="@+id/tvWeightInfo"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/tvAgeInfo"
+                            android:text="61 kg"/>
+                        <TextView
+                            android:id="@+id/tvHeightInfo"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/tvWeightInfo"
+                            android:text="5'6"/>
+                        <TextView
+                            android:id="@+id/tvBloodGroupInfo"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/tvHeightInfo"
+                            android:text="B+"/>
+                        <TextView
+                            android:id="@+id/tvHobbiesInfo"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/tvBloodGroupInfo"
+                            android:text="Photography"/>
+                        <TextView
+                            android:id="@+id/tvEducationInfo"
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/tvHobbiesInfo"
+                            android:text="M.B.A"/>
+                        <TextView
+                            android:id="@+id/tvLanguageInfo"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/tvEducationInfo"
+                            android:text="English, Hindi"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tvContact"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linear2"
+                    android:textSize="20sp"
+                    android:padding="4dp"
+                    android:textColor="@color/black"
+                    android:text="CONTACT"/>
+                <TextView
+                    android:id="@+id/tvCall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvContact"
+                    android:padding="4dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:text="Call"/>
+                <TextView
+                    android:id="@+id/tvCallInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvCall"
+                    android:textSize="15sp"
+                    android:padding="4dp"
+                    android:text="+91 9129191919"/>
+                <TextView
+                    android:id="@+id/tvAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvCallInfo"
+                    android:textSize="16sp"
+                    android:padding="4dp"
+                    android:textColor="@color/black"
+                    android:text="Address"/>
+                <TextView
+                    android:id="@+id/tvAddressInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvAddress"
+                    android:textSize="15sp"
+                    android:padding="4dp"
+                    android:text="13th Baker Street"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_marginRight="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/comhicliparthqyzn"/>
+
+                <TextView
+                    android:id="@+id/tvFamily"
+                    android:textSize="20sp"
+                    android:padding="4dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/image"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="FAMILY"/>
+                <TextView
+                    android:id="@+id/tvFamilyInfo"
+                    android:layout_below="@+id/tvFamily"
+                    android:padding="2dp"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dol Excepteur sin."/>
+                <TextView
+                    android:id="@+id/tvExpectations"
+                    android:textSize="20sp"
+                    android:padding="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_below="@+id/tvFamilyInfo"
+                    android:text="EXPECTATIONS"/>
+                <TextView
+                    android:id="@+id/tvExpecationsInfo"
+
+                    android:layout_below="@+id/tvExpectations"
+                    android:padding="4dp"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint ." />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
