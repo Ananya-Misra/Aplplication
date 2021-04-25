@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">LayoutApplication</string>
+    <string name="sara_bellum">SARA BELLUM</string>
+    <string name="about">ABOUT</string>
+    <string name="about_details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 150.</string>
+    <string name="d_o_b">D.O.B</string>
+    <string name="time">Time</string>
+    <string name="age">Age</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="education">Education</string>
+    <string name="language">Language</string>
+    <string name="_25_10_1995">25/10/1995</string>
+    <string name="_9_10_pm">9:10 PM</string>
+    <string name="_25_years">25 Years</string>
+    <string name="_61_kg">61 kg</string>
+    <string name="_5_6">5\'6</string>
+    <string name="b">B+</string>
+    <string name="photography">Photography</string>
+    <string name="m_b_a">M.B.A</string>
+    <string name="english_hindi">English, Hindi</string>
+    <string name="contact">CONTACT</string>
+    <string name="call">Call</string>
+    <string name="_91_9129191919">+91 9129191919</string>
+    <string name="address">Address</string>
+    <string name="_13th_baker_street">13th Baker Street</string>
+    <string name="family">FAMILY</string>
+    <string name="family_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dol Excepteur sin.</string>
+    <string name="expectations">EXPECTATIONS</string>
+    <string name="expectation_info">Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint .</string>
 </resources>
