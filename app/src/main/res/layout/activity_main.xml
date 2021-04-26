@@ -18,9 +18,8 @@
 
             <RelativeLayout
                 android:layout_margin="5dp"
-                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_width="160dp">
                 <TextView
                     android:id="@+id/tvFullName"
                     android:layout_centerHorizontal="true"
@@ -63,7 +62,7 @@
                     android:layout_below="@+id/tvAboutInfo">
                     <RelativeLayout
 
-                        android:layout_width="0dp"
+                        android:layout_width="100dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1">
                         <TextView
@@ -152,9 +151,9 @@
                     <RelativeLayout
 
 
-                        android:layout_width="0dp"
+                        android:layout_width="100dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1">
+                       >
                         <TextView
                             android:id="@+id/tvDOBInfo"
                             android:textSize="8sp"
@@ -285,16 +284,17 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+
+                >
 
                 <ImageView
                     android:id="@+id/imgProfile"
-                    android:layout_marginRight="0dp"
                     android:layout_width="match_parent"
                     android:layout_height="215dp"
                     android:layout_marginTop="35dp"
+
                     android:scaleType="centerCrop"
                     android:src="@drawable/profileholder"/>
                 <View
