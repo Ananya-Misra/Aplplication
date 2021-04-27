@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:padding="5dp"
     android:layout_height="match_parent">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="5dp">
 
         <RelativeLayout
             android:id="@+id/topHeader"
             android:background="#0e467f"
             android:layout_width="match_parent"
-            android:layout_height="180dp">
+            android:layout_height="200dp">
 
             <TextView
                 android:id="@+id/tvFullName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="20dp"
                 android:text="BARB DWYER"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
@@ -37,7 +34,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="40dp"
                 android:layout_below="@+id/tvFullName"
                 android:background="@color/white">
             </View>
@@ -47,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_below="@+id/tvFullName"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="50dp"
                 android:background="@color/black">
 
                 <TextView
@@ -61,11 +58,12 @@
             </RelativeLayout>
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_margin="15dp"
+                android:layout_width="110dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
                 android:layout_below="@+id/tvFullName"
                 android:src="@drawable/profilemen"
-                android:layout_height="100dp"/>
+                android:layout_height="110dp"/>
         </RelativeLayout>
 
 
@@ -398,5 +396,4 @@
                 android:layout_below="@+id/tvFamily"
                 android:background="@color/black" />
         </RelativeLayout>
-    </RelativeLayout>
-</LinearLayout>
+</RelativeLayout>
