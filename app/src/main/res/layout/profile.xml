@@ -1,103 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:padding="5dp"
     android:layout_height="match_parent">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="5dp"
-       >
+
         <RelativeLayout
-            android:id="@+id/rlRootLayout"
+            android:id="@+id/topHeader"
+            android:background="#0e467f"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:background="#0e467f">
+            android:layout_height="200dp">
+
             <TextView
                 android:id="@+id/tvFullName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:textColor="@color/white"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
                 android:text="BARB DWYER"
-                android:textSize="20sp"/>
-<RelativeLayout
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <View
                 android:layout_width="200dp"
                 android:layout_height="2dp"
-                android:layout_marginTop="35dp"
-                android:background="@color/white"
                 android:layout_marginLeft="10dp"
-
-                android:layout_toRightOf="@+id/tvFullName"
+                android:layout_marginTop="35dp"
                 android:layout_marginRight="5dp"
-               >
+                android:layout_toRightOf="@+id/tvFullName"
+                android:background="@color/white">
+            </View>
 
-</RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/tvFullName"
+                android:background="@color/white">
+            </View>
 
+            <RelativeLayout
+                android:id="@+id/rlRootLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/tvFullName"
+                android:layout_marginTop="50dp"
+                android:background="@color/black">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:text="24 Years (28/10/1996)"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/tvFullName"
+                android:src="@drawable/profilemen"
+                android:layout_height="110dp"/>
         </RelativeLayout>
 
-
-        <RelativeLayout
-            android:id="@+id/rlRootLayout2"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:background="@color/black"
-            android:layout_below="@+id/rlRootLayout"
-            android:layout_marginTop="5dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="24 Years (28/10/1996)"
-                android:layout_centerHorizontal="true"
-
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="12dp"
-                android:textColor="@color/white"/>
-        </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/rlSecondary2"
             android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topHeader"
+            android:layout_marginLeft="2dp"
+
             android:layout_marginTop="5dp"
-            android:layout_below="@+id/rlRootLayout2"
-            android:background="#ebebeb"
+            android:background="#ebebeb">
 
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="2dp">
+            <TextView
+                android:id="@+id/tvExpectation"
 
-        <TextView
-            android:id="@+id/tvExpectation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
 
-            android:layout_marginTop="15dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="EXPECTATION"
+                android:textColor="#0e467f"
+                android:textSize="12sp" />
 
-            android:textSize="12sp"
-            android:padding="4dp"
-            android:textColor="#0e467f"
-            android:text="EXPECTATION"/>
+            <TextView
+                android:id="@+id/tvExpectationInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line2"
+                android:layout_marginTop="5dp"
+                android:padding="11dp"
+                android:text="@string/family_info"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
             <View
                 android:id="@+id/line2"
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
-                android:padding="10dp"
+                android:layout_below="@+id/tvExpectation"
                 android:layout_margin="4dp"
                 android:background="@color/black"
-                android:layout_below="@+id/tvExpectation"
-                />
-        <TextView
-            android:id="@+id/tvExpectationInfo"
-            android:layout_below="@+id/line2"
-            android:padding="11dp"
-            android:textSize="10sp"
-            android:layout_marginTop="5dp"
-            android:textColor="@color/black"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/family_info"/>
+                android:padding="10dp" />
 
         </RelativeLayout>
 
@@ -105,51 +115,50 @@
             android:id="@+id/rlSecondary"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:background="#2c2c2c"
             android:layout_below="@id/rlSecondary2"
-            android:padding="14dp"
-            android:layout_marginLeft="2dp">
+            android:layout_marginLeft="2dp"
+            android:background="#2c2c2c"
+            android:padding="14dp">
 
             <TextView
                 android:id="@+id/tvContact"
-                android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
 
-                android:textSize="12sp"
                 android:padding="4dp"
+                android:text="@string/contact"
                 android:textColor="@color/white"
-                android:text="@string/contact"/>
-            <View
-                android:id="@+id/line3"
-                android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:padding="7dp"
-                android:background="@color/white"
-                android:layout_below="@+id/tvContact"
-                />
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/tvCallInfo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/line3"
-                android:textColor="@color/white"
                 android:layout_marginTop="5dp"
-                android:textSize="8sp"
                 android:padding="4dp"
-                android:text="@string/_91_9129191919"/>
+                android:text="@string/_91_9129191919"
+                android:textColor="@color/white"
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvAddressInfo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvCallInfo"
-                android:textSize="8sp"
-                android:textColor="@color/white"
                 android:padding="4dp"
-                android:text="@string/_13th_baker_street"/>
+                android:text="@string/_13th_baker_street"
+                android:textColor="@color/white"
+                android:textSize="8sp" />
 
+            <View
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/tvContact"
+                android:background="@color/white"
+                android:padding="7dp" />
 
 
         </RelativeLayout>
@@ -159,238 +168,232 @@
             android:id="@+id/rlTable"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/rlRootLayout2"
+            android:layout_below="@+id/topHeader"
             android:layout_marginLeft="3dp"
             android:layout_toRightOf="@+id/rlSecondary">
+
             <TextView
                 android:id="@+id/tvAbout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
                 android:layout_marginLeft="9dp"
-                android:textColor="#0e467f"
                 android:layout_marginTop="25dp"
-                android:text="@string/about"/>
-            <View
-                android:id="@+id/line4"
-                android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="7dp"
-                android:background="@color/black"
-                android:layout_below="@+id/tvAbout"
-                />
+                android:text="@string/about"
+                android:textColor="#0e467f"
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/tvAboutInfo"
-                android:padding="4dp"
-                android:textSize="10sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/line4"
+                android:padding="4dp"
+                android:text="@string/about_details"
                 android:textColor="@color/black"
-                android:text="@string/about_details"/>
+                android:textSize="10sp" />
+
             <TextView
                 android:id="@+id/tvDOB"
-                android:padding="2dp"
                 android:layout_width="60dp"
-                android:textSize="8sp"
-                android:textColor="@color/black"
-                android:layout_below="@+id/tvAboutInfo"
                 android:layout_height="20dp"
-                android:text="@string/d_o_b"/>
+                android:layout_below="@+id/tvAboutInfo"
+                android:padding="2dp"
+                android:text="@string/d_o_b"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvTime"
-                android:padding="2dp"
                 android:layout_width="60dp"
                 android:layout_height="20dp"
-                android:textSize="8sp"
-                android:textColor="@color/black"
                 android:layout_below="@+id/tvDOB"
-                android:text="@string/time"/>
+                android:padding="2dp"
+                android:text="@string/time"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvAge"
-                android:padding="2dp"
-                android:layout_height="20dp"
-                android:textSize="8sp"
                 android:layout_width="60dp"
-                android:textColor="@color/black"
+                android:layout_height="20dp"
                 android:layout_below="@+id/tvTime"
-                android:text="@string/age"/>
+                android:padding="2dp"
+                android:text="@string/age"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvWeight"
-                android:padding="2dp"
                 android:layout_width="60dp"
-                android:textSize="8sp"
                 android:layout_height="20dp"
-                android:textColor="@color/black"
                 android:layout_below="@+id/tvAge"
-                android:text="@string/weight"/>
+                android:padding="2dp"
+                android:text="@string/weight"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvHeight"
-                android:padding="2dp"
                 android:layout_width="60dp"
-                android:textSize="8sp"
                 android:layout_height="20dp"
-                android:textColor="@color/black"
                 android:layout_below="@+id/tvWeight"
-                android:text="@string/height"/>
+                android:padding="2dp"
+                android:text="@string/height"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvBloodGroup"
-                android:padding="2dp"
                 android:layout_width="60dp"
-                android:textSize="8sp"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvHeight"
+                android:padding="2dp"
+                android:text="@string/blood_group"
                 android:textColor="@color/black"
-                android:text="@string/blood_group"/>
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvHobbies"
-                android:padding="2dp"
                 android:layout_width="60dp"
-                android:textSize="8sp"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvBloodGroup"
+                android:padding="2dp"
+                android:text="@string/hobbies"
                 android:textColor="@color/black"
-                android:text="@string/hobbies"/>
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvEducation"
-                android:padding="2dp"
                 android:layout_width="60dp"
                 android:layout_height="20dp"
-                android:textSize="8sp"
                 android:layout_below="@+id/tvHobbies"
+                android:padding="2dp"
+                android:text="@string/education"
                 android:textColor="@color/black"
-                android:text="@string/education"/>
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvFamily"
-                android:textSize="12sp"
-                android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
-                android:layout_below="@+id/tvEducation"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/tvEducation"
+                android:layout_marginTop="15dp"
+                android:text="@string/family"
                 android:textColor="#0e467f"
-                android:text="@string/family"/>
-            <View
-                android:id="@+id/line5"
-                android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:background="@color/black"
-                android:layout_below="@+id/tvFamily"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:id="@+id/tvFamilyInfo"
-                android:layout_below="@+id/line5"
-                android:padding="2dp"
-                android:textSize="10sp"
-                android:textColor="@color/black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/family_info"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                android:layout_below="@+id/line5"
+                android:padding="2dp"
+                android:text="@string/family_info"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
 
             <TextView
                 android:id="@+id/tvDOBInfo"
-                android:textSize="8sp"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvAboutInfo"
                 android:layout_toRightOf="@+id/tvDOB"
+                android:text="@string/_25_10_1995"
 
                 android:textColor="@color/black"
-                android:text="@string/_25_10_1995"/>
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvTimeInfo"
-                android:padding="2dp"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
-                android:textSize="8sp"
-                android:textColor="@color/black"
                 android:layout_below="@+id/tvDOBInfo"
                 android:layout_toRightOf="@+id/tvTime"
-                android:text="@string/_9_10_pm"/>
+                android:padding="2dp"
+                android:text="@string/_9_10_pm"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+
             <TextView
                 android:id="@+id/tvAgeInfo"
-                android:padding="2dp"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
-                android:layout_toRightOf="@+id/tvAge"
-                android:textSize="8sp"
-                android:textColor="@color/black"
                 android:layout_below="@+id/tvTimeInfo"
-                android:text="@string/_25_years"/>
+                android:layout_toRightOf="@+id/tvAge"
+                android:padding="2dp"
+                android:text="@string/_25_years"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvWeightInfo"
-                android:padding="2dp"
                 android:layout_width="wrap_content"
-                android:layout_toRightOf="@+id/tvWeight"
                 android:layout_height="20dp"
-                android:textSize="8sp"
-                android:textColor="@color/black"
                 android:layout_below="@+id/tvAgeInfo"
-                android:text="@string/_61_kg"/>
+                android:layout_toRightOf="@+id/tvWeight"
+                android:padding="2dp"
+                android:text="@string/_61_kg"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvHeightInfo"
-                android:padding="2dp"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
-                android:textColor="@color/black"
-                android:layout_toRightOf="@+id/tvHeight"
-                android:textSize="8sp"
                 android:layout_below="@+id/tvWeightInfo"
-                android:text="@string/_5_6"/>
+                android:layout_toRightOf="@+id/tvHeight"
+                android:padding="2dp"
+                android:text="@string/_5_6"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvBloodGroupInfo"
-                android:padding="2dp"
                 android:layout_width="wrap_content"
-                android:layout_toRightOf="@+id/tvBloodGroup"
                 android:layout_height="20dp"
-                android:textSize="8sp"
-                android:textColor="@color/black"
                 android:layout_below="@+id/tvHeightInfo"
-                android:text="@string/b"/>
+                android:layout_toRightOf="@+id/tvBloodGroup"
+                android:padding="2dp"
+                android:text="@string/b"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvHobbiesInfo"
-                android:layout_toRightOf="@+id/tvHobbies"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
-                android:textSize="8sp"
-                android:textColor="@color/black"
                 android:layout_below="@+id/tvBloodGroupInfo"
-                android:text="@string/photography"/>
+                android:layout_toRightOf="@+id/tvHobbies"
+                android:text="@string/photography"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvEducationInfo"
-                android:padding="2dp"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
-                android:textSize="8sp"
-                android:layout_toRightOf="@+id/tvEducation"
-                android:textColor="@color/black"
                 android:layout_below="@+id/tvHobbiesInfo"
-                android:text="@string/m_b_a"/>
+                android:layout_toRightOf="@+id/tvEducation"
+                android:padding="2dp"
+                android:text="@string/m_b_a"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
 
+            <View
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/tvAbout"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/black" />
 
-
-
+            <View
+                android:id="@+id/line5"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/tvFamily"
+                android:background="@color/black" />
         </RelativeLayout>
-    </RelativeLayout>
-
-
-
-
-
-
-</LinearLayout>
+</RelativeLayout>
