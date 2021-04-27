@@ -25,6 +25,7 @@
                 android:textSize="20sp" />
 
             <View
+                android:id="@+id/vForName"
                 android:layout_width="200dp"
                 android:layout_height="2dp"
                 android:layout_marginLeft="10dp"
@@ -35,7 +36,7 @@
             </View>
 
             <View
-                android:id="@+id/vForName"
+                android:id="@+id/vForImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="40dp"
