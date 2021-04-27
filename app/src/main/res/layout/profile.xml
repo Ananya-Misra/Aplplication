@@ -60,11 +60,12 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="49dp"
-                    android:text="24 Years (28/10/1996)"
+                    android:text="@string/heading"
                     android:textColor="@color/white" />
             </RelativeLayout>
 
             <ImageView
+                android:contentDescription="@string/profile_image"
                 android:id="@+id/imgProfile"
                 android:layout_width="110dp"
                 android:layout_marginLeft="5dp"
