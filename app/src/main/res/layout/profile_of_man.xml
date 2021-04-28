@@ -2,7 +2,7 @@
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/rlRootLayout"
-    android:padding="5dp"
+    android:padding="7dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -19,23 +19,24 @@
             android:layout_height="110dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:background="@drawable/image_border"
-            android:src="@drawable/profilemen" />
+            android:src="@drawable/profilemen"
+            android:padding="3dp"
+            android:background="@color/white"/>
         <TextView
             android:id="@+id/tvContact"
             android:layout_below="@+id/imgProfile"
-            android:padding="4dp"
-            android:layout_marginTop="15dp"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="6dp"
             android:text="@string/contact"
+            android:padding="4dp"
             android:textColor="@color/white"/>
         <View
-            android:id="@+id/vBelowCantact"
+            android:id="@+id/vBelowContact"
             android:layout_width="8dp"
             android:layout_height="2dp"
             android:padding="4dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:layout_below="@+id/tvContact"
             android:background="@color/white"
             />
@@ -45,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="4dp"
-            android:layout_below="@+id/vBelowCantact"
+            android:layout_below="@+id/vBelowContact"
             android:src="@drawable/ic_contact"/>
         <TextView
             android:id="@+id/tvCall"
@@ -142,7 +143,7 @@
             android:textColor="@color/white"/>
         <View
             android:id="@+id/vBelowDOB"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:layout_width="8dp"
             android:layout_height="2dp"
             android:padding="4dp"
@@ -154,6 +155,7 @@
             android:layout_height="wrap_content"
             android:padding="4dp"
             android:layout_below="@+id/vBelowDOB"
+            android:textSize="12sp"
             android:text="@string/date_info"
             android:textColor="@color/white"/>
 
@@ -167,7 +169,7 @@
             android:textColor="@color/white"/>
         <View
             android:id="@+id/vBelowCast"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:layout_width="8dp"
             android:layout_height="2dp"
             android:padding="4dp"
@@ -178,6 +180,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/vBelowCast"
+            android:textSize="12sp"
             android:text="@string/cast_info"
             android:padding="4dp"
             android:textColor="@color/white"/>
@@ -191,7 +194,7 @@
             android:textColor="@color/white"/>
         <View
             android:id="@+id/vBelowNative"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:layout_width="8dp"
             android:layout_height="2dp"
             android:layout_below="@+id/tvNative"
@@ -201,6 +204,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="4dp"
+            android:textSize="12sp"
             android:layout_below="@+id/vBelowNative"
             android:text="@string/address_info"
             android:textColor="@color/white"/>
@@ -210,6 +214,7 @@
         android:id="@+id/rlRightLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/light_grey"
         android:layout_toRightOf="@+id/rlLeftLayout">
         <View
             android:id="@+id/vAboveName"
@@ -223,6 +228,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
             android:layout_below="@id/vAboveName"
+            android:textSize="17sp"
             android:textColor="@color/black"
             android:text="@string/sara_bellum"/>
         <TextView
@@ -230,9 +236,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
+            android:textSize="17sp"
             android:layout_below="@id/tvFullName"
             android:textColor="@color/sea_green"
-            android:text="TONDON"/>
+            android:text="@string/last_name"/>
         <TextView
             android:id="@+id/tvEducationInfo"
             android:layout_width="wrap_content"
@@ -258,7 +265,7 @@
             android:text="@string/personal_details"/>
         <View
             android:id="@+id/vBelowPersonalDetails"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="8dp"
             android:layout_width="8dp"
             android:layout_height="2dp"
             android:layout_below="@+id/tvPersonalDetails"
@@ -333,7 +340,7 @@
         <TextView
             android:id="@+id/tvFamilyBackground"
             android:layout_below="@+id/tvWeight"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:layout_marginTop="6dp"
             android:padding="2dp"
             android:layout_width="wrap_content"
@@ -341,7 +348,7 @@
             android:text="@string/family_background"/>
         <View
             android:id="@+id/vBelowFamilyBackground"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="8dp"
             android:layout_width="8dp"
             android:layout_height="2dp"
             android:layout_below="@+id/tvFamilyBackground"
@@ -351,7 +358,7 @@
             android:layout_width="60dp"
             android:layout_height="20dp"
             android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:layout_below="@+id/vBelowFamilyBackground"
             android:padding="2dp"
             android:text="Father Name"
@@ -362,7 +369,7 @@
             android:id="@+id/tvMotherName"
             android:layout_width="60dp"
             android:layout_height="20dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:layout_below="@+id/tvFatherName"
             android:padding="2dp"
             android:text="Mother Name"
@@ -376,7 +383,7 @@
             android:layout_height="20dp"
             android:layout_below="@+id/tvMotherName"
             android:padding="2dp"
-            android:text="Contact No"
+            android:text="@string/contact_no"
             android:textColor="@color/black"
             android:textSize="8sp" />
 
@@ -387,7 +394,7 @@
             android:layout_height="20dp"
             android:layout_below="@+id/tvContactNo"
             android:padding="2dp"
-            android:text="Elder Brother"
+            android:text="@string/elder_brother"
             android:textColor="@color/black"
             android:textSize="8sp" />
         <TextView
@@ -445,7 +452,7 @@
             android:text="MATERNAL BACKGROUND"/>
         <View
             android:id="@+id/vBelowMaternalBackground"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="8dp"
             android:layout_width="8dp"
             android:layout_height="2dp"
             android:layout_below="@+id/tvMaternalBackground"
@@ -466,7 +473,7 @@
             android:id="@+id/tvPlace"
             android:layout_width="60dp"
             android:layout_height="20dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:layout_below="@+id/tvUncleName"
             android:padding="2dp"
             android:text="@string/place"
