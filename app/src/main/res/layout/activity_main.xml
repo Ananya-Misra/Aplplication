@@ -226,7 +226,7 @@
                         android:textSize="8sp"
                         android:textColor="@color/black"
                         android:layout_below="@+id/tvHobbiesInfo"
-                        android:text="@string/m_b_a"/>
+                        android:text="@string/education_info"/>
                     <TextView
                         android:id="@+id/tvLanguageInfo"
                         android:textColor="@color/black"

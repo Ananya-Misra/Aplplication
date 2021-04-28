@@ -19,7 +19,7 @@
     <string name="height_info">5\'6</string>
     <string name="blood_group_info">B+</string>
     <string name="photography">Photography</string>
-    <string name="m_b_a">M.B.A</string>
+    <string name="education_info">M.B.A</string>
     <string name="english_hindi">English, Hindi</string>
     <string name="contact">CONTACT</string>
     <string name="call">Call</string>
@@ -32,4 +32,15 @@
     <string name="expectation_info">Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint .</string>
     <string name="heading">24 Years (28/10/1996)</string>
     <string name="profile_image">profile image</string>
+    <string name="phone">PHONE</string>
+    <string name="email">EMAIL</string>
+    <string name="email_info">abracadabra@gmail.com</string>
+    <string name="cast">CAST</string>
+    <string name="cast_info">Unknown</string>
+    <string name="native_place">NATIVE PLACE</string>
+    <string name="personal_details">PERSONAL DETAILS</string>
+    <string name="family_background">FAMILY BACKGROUND</string>
+    <string name="location">ADDRESS</string>
+    <string name="father_name">Father Name</string>
+    <string name="place">Place</string>
 </resources>

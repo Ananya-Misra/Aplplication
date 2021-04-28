@@ -385,7 +385,7 @@
                 android:layout_below="@+id/tvHobbiesInfo"
                 android:layout_toRightOf="@+id/tvEducation"
                 android:padding="2dp"
-                android:text="@string/m_b_a"
+                android:text="@string/education_info"
                 android:textColor="@color/black"
                 android:textSize="8sp" />
 
