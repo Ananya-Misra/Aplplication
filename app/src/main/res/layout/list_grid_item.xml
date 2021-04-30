@@ -3,33 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="130dp"
+    android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:layout_margin="5dp"
     app:cardCornerRadius="5dp"
-    app:cardElevation="5dp">
+    app:cardElevation="5dp"
 
-    <LinearLayout
+    >
+    <include android:layout_height="wrap_content"
+        android:id="@+id/tvTitle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <ImageView
-            android:id="@+id/imgImage"
-            android:layout_marginTop="5dp"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center"
-            android:contentDescription="logo"
-            android:src="@mipmap/ic_launcher" />
-
-        <TextView
-            android:id="@+id/tvTitle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/geeky_show"
-            android:textAlignment="center" />
-
-    </LinearLayout>
+        layout="@layout/profile"/>
 
 </androidx.cardview.widget.CardView>

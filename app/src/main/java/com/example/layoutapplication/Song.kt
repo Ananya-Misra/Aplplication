@@ -1,2 +1,2 @@
 package com.example.layoutapplication
-data class Song(val title:String,val image:Int)
+data class Song(var title:String,val image:Int)

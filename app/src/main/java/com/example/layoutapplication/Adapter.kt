@@ -22,15 +22,15 @@ class Adapter(val songs:List<Song>):RecyclerView.Adapter<Adapter.MyViewHolder>()
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        holder.title.text=songs[position].title
-
-        holder.image.setImageResource(songs[position].image)
+//        holder.title.layout=songs[position].title
+//
+//        holder.image.setImageResource(songs[position].image)
 
     }
 
     class MyViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
-        var title= itemView.findViewById<TextView>(R.id.tvTitle)
-        var image=itemView.findViewById<ImageView>(R.id.imgImage)
+//     var title= itemView.findViewById<TextView>(R.id.tvTitle)
+//        var image=itemView.findViewById<ImageView>(R.id.imgImage)
     }
 }
 
