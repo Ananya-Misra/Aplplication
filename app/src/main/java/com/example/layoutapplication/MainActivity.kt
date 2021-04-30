@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         songsObject.add(Song("Hello2",R.drawable.ic_launcher_background))
         songsObject.add(Song("Hello3",R.drawable.ic_launcher_background))
         songList.adapter= Adapter(songsObject)
-        songList.layoutManager=GridLayoutManager(this,1)
+        songList.layoutManager=GridLayoutManager(this,2)
 
 
     }
