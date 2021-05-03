@@ -47,4 +47,14 @@
     <string name="contact_no">Contact No</string>
     <string name="elder_brother">Elder Brother</string>
     <string name="geeky_show">geeky show</string>
+    <string name="dummy_text">lorem ipsum lorem ipsum lorem ipsum</string>
+    <string name="income">Income</string>
+    <string name="occupation">Occupation</string>
+    <string name="post_graduation">Post Graduation</string>
+    <string name="graduation">Graduation</string>
+    <string name="about_him">About him</string>
+    <string name="country">Country</string>
+    <string name="astro_details">Astro Details</string>
+    <string name="profile_portfolio">Profile Portfolio</string>
+    <string name="name_for_boy">Chetan Arora</string>
 </resources>
