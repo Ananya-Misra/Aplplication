@@ -44,6 +44,8 @@ dependencies {
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
     implementation 'com.globus-ltd:recyclerview:1.0.2'
     implementation 'com.google.android.material:material:1.4.0-alpha02'
+    implementation 'androidx.viewpager2:viewpager2:1.1.0-alpha01'
+    implementation 'me.relex:circleindicator:2.1.4'
     testImplementation 'junit:junit:4.+'
 
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
