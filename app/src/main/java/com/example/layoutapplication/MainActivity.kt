@@ -11,6 +11,7 @@ import android.widget.PopupWindow
 import android.widget.RelativeLayout
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.viewpager2.widget.ViewPager2
 import com.example.recyclerviewapp.Adapter
 import kotlinx.android.synthetic.main.pagerview_layout.*
 import kotlinx.android.synthetic.main.recyclerview_layout.*
@@ -35,11 +36,7 @@ class MainActivity : AppCompatActivity()
 
 
 
-            postToList()
-            view_pager.adapter = ViewPagerAdapter(titleList)
 
-            val indicator = findViewById<CircleIndicator3>(R.id.indicator)
-            indicator.setViewPager(view_pager)
         }
     }
 

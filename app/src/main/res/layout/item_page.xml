@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:background="@color/brown"
+    android:layout_height="match_parent">
+
     <ImageView
         android:id="@+id/imgProfile"
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:layout_margin="5dp"
-        android:src="@drawable/ic_launcher_background"
         android:clickable="true"
+        android:contentDescription="@string/cast"
         android:focusable="true"
-        android:contentDescription="@string/cast" />
+        android:src="@drawable/ic_home" />
+
     <TextView
         android:id="@+id/tvAbout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/imgProfile"
-        android:textSize="34sp"
+        android:textColor="@color/white"
         android:layout_centerHorizontal="true"
-        android:text="About Topic"/>
+        android:text="About Topic"
+        android:textSize="34sp" />
 
 </RelativeLayout>
