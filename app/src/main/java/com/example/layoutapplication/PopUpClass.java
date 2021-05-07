@@ -8,11 +8,9 @@ package com.example.layoutapplication;
         import android.view.LayoutInflater;
         import android.view.MotionEvent;
         import android.view.View;
-        import android.widget.Button;
         import android.widget.LinearLayout;
         import android.widget.PopupWindow;
         import android.widget.TextView;
-        import android.widget.Toast;
 
         import androidx.viewpager.widget.ViewPager;
 
@@ -31,7 +29,7 @@ public class PopUpClass {
 
         //Create a View object yourself through inflater
         LayoutInflater inflater = (LayoutInflater) view.getContext().getSystemService(view.getContext().LAYOUT_INFLATER_SERVICE);
-        View popupView = inflater.inflate(R.layout.activity_main2, null);
+        View popupView = inflater.inflate(R.layout.pager_view, null);
 
         //Specify the length and width through constants
         int width = LinearLayout.LayoutParams.MATCH_PARENT;
@@ -84,14 +82,14 @@ public class PopUpClass {
         layout_dot = popupView.findViewById(R.id.layout_dot);
         arrayList = new ArrayList<>();
 
-        arrayList.add(R.color.blue);
+        arrayList.add(R.color.brown);
         arrayList.add(R.color.black);
         arrayList.add(R.color.dark_blue);
         arrayList.add(R.color.sea_green);
 
         CustomPagerAdapter pagerAdapter = new CustomPagerAdapter(context, arrayList);
         viewPager.setAdapter(pagerAdapter);
-//        viewPager.setPageMargin(20);
+        viewPager.setPageMargin(10);
         addDot(0,context);
 
         // whenever the page changes

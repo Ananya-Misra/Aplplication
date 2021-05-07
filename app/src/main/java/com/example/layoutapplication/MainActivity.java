@@ -6,12 +6,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 
 
-
-
-
-        import android.os.Bundle;
-
-        import android.text.Html;
+import android.text.Html;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -28,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main0);
+        setContentView(R.layout.launcher_activity);
         // Create a button handler and call the dialog box display method in it
         Button popupButton = findViewById(R.id.btn_showDialog);
         popupButton.setOnClickListener(new View.OnClickListener() {
