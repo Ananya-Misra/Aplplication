@@ -2,6 +2,7 @@ package com.example.layoutapplication;
 
 
 
+        import android.content.Context;
         import android.text.Html;
         import android.view.Gravity;
         import android.view.LayoutInflater;
@@ -25,7 +26,7 @@ public class PopUpClass {
     LinearLayout layout_dot;
     TextView[] dot;
 
-    public void showPopupWindow(final View view) {
+    public void showPopupWindow(final View view, Context context) {
 
 
         //Create a View object yourself through inflater
@@ -50,16 +51,16 @@ public class PopUpClass {
 //        TextView test2 = popupView.findViewById(R.id.titleText);
 //        test2.setText(R.string.textTitle);
 
-        ViewPager buttonEdit = popupView.findViewById(R.id.view_pager);
-        buttonEdit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                //As an example, display the message
-                Toast.makeText(view.getContext(), "Wow, popup action button", Toast.LENGTH_SHORT).show();
-
-            }
-        });
+//        ViewPager buttonEdit = popupView.findViewById(R.id.view_pager);
+//        buttonEdit.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                //As an example, display the message
+//                Toast.makeText(view.getContext(), "Wow, popup action button", Toast.LENGTH_SHORT).show();
+//
+//            }
+//        });
 
 
 
@@ -88,10 +89,10 @@ public class PopUpClass {
         arrayList.add(R.color.dark_blue);
         arrayList.add(R.color.sea_green);
 
-        CustomPagerAdapter pagerAdapter = new CustomPagerAdapter(getApplicationContext(), arrayList);
+        CustomPagerAdapter pagerAdapter = new CustomPagerAdapter(context, arrayList);
         viewPager.setAdapter(pagerAdapter);
 //        viewPager.setPageMargin(20);
-        addDot(0);
+        addDot(0,context);
 
         // whenever the page changes
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
@@ -101,7 +102,7 @@ public class PopUpClass {
             }
             @Override
             public void onPageSelected(int i) {
-                addDot(i);
+                addDot(i,context);
             }
             @Override
             public void onPageScrollStateChanged(int i) {
@@ -109,19 +110,19 @@ public class PopUpClass {
             }
         });
     }
-    public void addDot(int page_position) {
+    public void addDot(int page_position,Context context) {
         dot = new TextView[arrayList.size()];
         layout_dot.removeAllViews();
 
         for (int i = 0; i < dot.length; i++) {;
-            dot[i] = new TextView(this);
+            dot[i] = new TextView(context);
             dot[i].setText(Html.fromHtml("&#9673;"));
             dot[i].setTextSize(35);
-            dot[i].setTextColor(getResources().getColor(R.color.grey));
+            dot[i].setTextColor(context.getResources().getColor(R.color.grey));
             layout_dot.addView(dot[i]);
         }
         //active dot
-        dot[page_position].setTextColor(getResources().getColor(R.color.black));
+        dot[page_position].setTextColor(context.getResources().getColor(R.color.black));
     }
 
 }

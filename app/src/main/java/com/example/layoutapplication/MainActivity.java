@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 PopUpClass popUpClass = new PopUpClass();
-                popUpClass.showPopupWindow(v);
+                popUpClass.showPopupWindow(v,getApplicationContext());
             }
         });
 
