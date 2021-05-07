@@ -34,9 +34,6 @@ class MainActivity : AppCompatActivity()
             val popUpClass = PopupClass()
             popUpClass.showPopupWindow(v)
 
-
-
-
         }
     }
 
