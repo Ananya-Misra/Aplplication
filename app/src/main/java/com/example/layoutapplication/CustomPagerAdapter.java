@@ -17,6 +17,20 @@ public class CustomPagerAdapter extends PagerAdapter {
     Context context;
     ArrayList<Integer> pager;
     TextView tvName;
+    TextView tvAddressInfo;
+    TextView tvAgeInfo;
+    TextView tvBloodGroupInfo;
+    ImageView imgProfile;
+    TextView tvAboutInfo;
+    TextView tvCallInfo;
+    TextView tvDOBInfo;
+    TextView tvEducationInfo;
+    TextView tvExpectationsInfo;
+    TextView tvFamilyInfo;
+    TextView tvHeightInfo;
+    TextView tvHobbiesInfo;
+    TextView tvWeightInfo;
+    TextView tvTimeInfo;
 
     public CustomPagerAdapter(Context context, ArrayList<Integer> pager) {
         this.context = context;
@@ -64,7 +78,23 @@ public class CustomPagerAdapter extends PagerAdapter {
 
 
     private void setViews(View view) {
+        imgProfile=view.findViewById(R.id.imgProfile);
         tvName = view.findViewById(R.id.tvFullName);
+        tvAddressInfo=view.findViewById(R.id.tvAddressInfo);
+        tvAgeInfo=view.findViewById(R.id.tvAgeInfo);
+        tvBloodGroupInfo=view.findViewById(R.id.tvBloodGroupInfo);//only in 2 out of 4 layouts
+        tvHobbiesInfo=view.findViewById(R.id.tvHobbiesInfo);//only in 2 out of 4 layouts
+        tvAboutInfo = view.findViewById(R.id.tvAboutInfo);
+        tvCallInfo = view.findViewById(R.id.tvCallInfo);
+        tvDOBInfo = view.findViewById(R.id.tvDOBInfo);
+        tvEducationInfo=view.findViewById(R.id.tvEducationInfo);
+        tvFamilyInfo=view.findViewById(R.id.tvFamilyInfo);//only in 2 out of 4 layouts
+        tvExpectationsInfo=view.findViewById(R.id.tvExpecationsInfo);//only in 2 out of 4 layouts
+        tvHeightInfo=view.findViewById(R.id.tvHeightInfo);
+        tvWeightInfo = view.findViewById(R.id.tvWeightInfo);
+        tvTimeInfo=view.findViewById(R.id.tvTimeInfo);//only in 3 out of 4 layouts
+
+
 
     }
 
