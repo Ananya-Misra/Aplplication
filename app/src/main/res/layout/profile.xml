@@ -5,6 +5,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:padding="5dp"
+    android:background="@color/white"
     android:layout_height="match_parent">
 
 
@@ -81,9 +82,9 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/topHeader"
-            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
 
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:background="@color/grey">
 
             <TextView
@@ -125,7 +126,7 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/rlExpectationsLayout"
-            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
             android:background="#2c2c2c"
             android:padding="4dp">
 
@@ -178,14 +179,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/topHeader"
-            android:layout_marginLeft="3dp"
-            android:layout_toRightOf="@+id/rlContactLayout">
+            android:layout_marginStart="3dp"
+            android:layout_toEndOf="@+id/rlContactLayout">
 
             <TextView
                 android:id="@+id/tvAbout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="9dp"
+                android:layout_marginStart="9dp"
                 android:layout_marginTop="8dp"
                 android:text="@string/about"
                 android:textColor="@color/dark_blue"
@@ -306,7 +307,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvAboutInfo"
-                android:layout_toRightOf="@+id/tvDOB"
+                android:layout_toEndOf="@+id/tvDOB"
                 android:text="@string/date_info"
 
                 android:textColor="@color/black"
@@ -317,7 +318,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvDOBInfo"
-                android:layout_toRightOf="@+id/tvTime"
+                android:layout_toEndOf="@+id/tvTime"
                 android:padding="2dp"
                 android:text="@string/time_info"
                 android:textColor="@color/black"
@@ -329,7 +330,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvTimeInfo"
-                android:layout_toRightOf="@+id/tvAge"
+                android:layout_toEndOf="@+id/tvAge"
                 android:padding="2dp"
                 android:text="@string/age_info"
                 android:textColor="@color/black"
@@ -340,7 +341,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvAgeInfo"
-                android:layout_toRightOf="@+id/tvWeight"
+                android:layout_toEndOf="@+id/tvWeight"
                 android:padding="2dp"
                 android:text="@string/weight_info"
                 android:textColor="@color/black"
@@ -351,7 +352,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvWeightInfo"
-                android:layout_toRightOf="@+id/tvHeight"
+                android:layout_toEndOf="@+id/tvHeight"
                 android:padding="2dp"
                 android:text="@string/height_info"
                 android:textColor="@color/black"
@@ -362,7 +363,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvHeightInfo"
-                android:layout_toRightOf="@+id/tvBloodGroup"
+                android:layout_toEndOf="@+id/tvBloodGroup"
                 android:padding="2dp"
                 android:text="@string/blood_group_info"
                 android:textColor="@color/black"
@@ -373,7 +374,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvBloodGroupInfo"
-                android:layout_toRightOf="@+id/tvHobbies"
+                android:layout_toEndOf="@+id/tvHobbies"
                 android:text="@string/photography"
                 android:textColor="@color/black"
                 android:textSize="8sp" />
@@ -383,7 +384,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvHobbiesInfo"
-                android:layout_toRightOf="@+id/tvEducation"
+                android:layout_toEndOf="@+id/tvEducation"
                 android:padding="2dp"
                 android:text="@string/education_info"
                 android:textColor="@color/black"
@@ -394,7 +395,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_below="@+id/tvAbout"
-                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
                 android:layout_marginTop="5dp"
                 android:background="@color/black" />
 

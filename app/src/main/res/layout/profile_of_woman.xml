@@ -27,7 +27,7 @@
             <TextView
                 android:id="@+id/tvFullName"
                 android:layout_centerHorizontal="true"
-                android:textSize="23sp"
+                android:textSize="20sp"
                 android:layout_marginTop="10dp"
                 android:padding="3dp"
                 android:layout_width="match_parent"

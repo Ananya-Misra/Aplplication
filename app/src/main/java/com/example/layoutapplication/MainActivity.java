@@ -39,18 +39,4 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    public void addDot(int page_position) {
-        dot = new TextView[arrayList.size()];
-        layout_dot.removeAllViews();
-
-        for (int i = 0; i < dot.length; i++) {;
-            dot[i] = new TextView(this);
-            dot[i].setText(Html.fromHtml("&#9673;"));
-            dot[i].setTextSize(35);
-            dot[i].setTextColor(getResources().getColor(R.color.grey));
-            layout_dot.addView(dot[i]);
-        }
-        //active dot
-        dot[page_position].setTextColor(getResources().getColor(R.color.black));
-    }
 }

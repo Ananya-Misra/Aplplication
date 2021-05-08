@@ -81,16 +81,18 @@ public class PopUpClass {
         viewPager = popupView.findViewById(R.id.viewpager);
         layout_dot = popupView.findViewById(R.id.layout_dot);
         arrayList = new ArrayList<>();
-
-        arrayList.add(R.color.brown);
-        arrayList.add(R.color.black);
-        arrayList.add(R.color.dark_blue);
-        arrayList.add(R.color.sea_green);
+//
+//        arrayList.add(R.color.brown);
+//        arrayList.add(R.color.black);
+//        arrayList.add(R.color.dark_blue);
+//        arrayList.add(R.color.sea_green);
 
         CustomPagerAdapter pagerAdapter = new CustomPagerAdapter(context, arrayList);
         viewPager.setAdapter(pagerAdapter);
         viewPager.setPageMargin(10);
+//        viewPager.setCurrentItem(0);
         addDot(0,context);
+
 
         // whenever the page changes
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
@@ -109,7 +111,7 @@ public class PopUpClass {
         });
     }
     public void addDot(int page_position,Context context) {
-        dot = new TextView[arrayList.size()];
+        dot = new TextView[4];
         layout_dot.removeAllViews();
 
         for (int i = 0; i < dot.length; i++) {;
