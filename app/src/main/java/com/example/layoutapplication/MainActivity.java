@@ -10,18 +10,14 @@ import android.text.Html;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-        import android.widget.LinearLayout;
-        import java.util.ArrayList;
+import android.widget.LinearLayout;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    ViewPager viewPager;
-    ArrayList<Integer> arrayList;
-    LinearLayout layout_dot;
-    TextView[] dot;
-
     @Override
-    protected void onCreate (Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.launcher_activity);
         // Create a button handler and call the dialog box display method in it
@@ -32,11 +28,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 PopUpClass popUpClass = new PopUpClass();
-                popUpClass.showPopupWindow(v,getApplicationContext());
+                popUpClass.showPopupWindow(v, getApplicationContext());
             }
         });
-
-
-
     }
 }

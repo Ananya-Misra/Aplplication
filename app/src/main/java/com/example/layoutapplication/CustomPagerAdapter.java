@@ -1,5 +1,6 @@
 package com.example.layoutapplication;
         import android.content.Context;
+        import android.text.TextUtils;
         import android.view.LayoutInflater;
         import android.view.View;
         import android.view.ViewGroup;
@@ -15,6 +16,7 @@ public class CustomPagerAdapter extends PagerAdapter {
 
     Context context;
     ArrayList<Integer> pager;
+    TextView tvName;
 
     public CustomPagerAdapter(Context context, ArrayList<Integer> pager) {
         this.context = context;
@@ -30,15 +32,6 @@ public class CustomPagerAdapter extends PagerAdapter {
     public boolean isViewFromObject(View view, Object o) {
         return view == o;
     }
-
-    @Override
-//    public  Object instantiateItem(ViewGroup container, int position) {
-//        View inflater = LayoutInflater.from(context).inflate(R.layout.item_page, container, false);
-//        ImageView imageView = (ImageView) view.findViewById(R.id.imgProfile);
-//        TextView topic=(TextView) view.findViewById(R.id.tvAbout);
-//        topic.setText(pager.get(pos))
-//        imageView.setBackgroundResource(pager.get(position));
-//        container.addView(view);
 
     public Object instantiateItem(ViewGroup collection, int position) {
 
@@ -62,8 +55,16 @@ public class CustomPagerAdapter extends PagerAdapter {
         }
 
         View view = inflater.inflate(resId, null);
+        setViews(view);
+
         ((ViewPager) collection).addView(view, 0);
         return view;
+
+    }
+
+
+    private void setViews(View view) {
+        tvName = view.findViewById(R.id.tvFullName);
 
     }
 
