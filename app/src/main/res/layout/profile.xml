@@ -21,7 +21,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
-                android:text="BARB DWYER"
+                android:text="@string/sara_bellum"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -52,17 +52,18 @@
                 android:layout_below="@+id/tvFullName"
                 android:layout_marginTop="50dp"
                 android:background="@color/black">
-
                 <TextView
-                    android:id="@+id/tvAgeAndDob"
+                    android:id="@+id/tvDOBInfo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="49dp"
-                    android:text="@string/heading"
+                    android:text="@string/date_info"
                     android:textColor="@color/white" />
+
+
             </RelativeLayout>
 
             <ImageView
@@ -318,7 +319,7 @@
                 android:layout_below="@+id/tvAboutInfo"
                 android:layout_toEndOf="@+id/tvLanguage"
                 android:text="@string/language_info"
-
+                android:padding="2dp"
                 android:textColor="@color/black"
                 android:textSize="8sp" />
 

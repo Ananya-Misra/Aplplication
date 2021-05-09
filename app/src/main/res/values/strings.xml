@@ -30,25 +30,10 @@
     <string name="family_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, consectetur adipiscing elit, sed do eiusmod tempor tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dol Excepteur sin.</string>
     <string name="expectations">EXPECTATIONS</string>
     <string name="expectation_info">Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint .</string>
-    <string name="heading">24 Years (28/10/1996)</string>
     <string name="profile_image">profile image</string>
-    <string name="phone">PHONE</string>
     <string name="email">Email</string>
     <string name="email_info">abracadabra@gmail.com</string>
-    <string name="native_place">NATIVE PLACE</string>
     <string name="personal_details">PERSONAL DETAILS</string>
-    <string name="family_background">FAMILY BACKGROUND</string>
     <string name="location">ADDRESS</string>
-    <string name="father_name">Father Name</string>
-    <string name="place">Place</string>
-    <string name="last_name">TONDON</string>
     <string name="contact_no">Contact No</string>
-    <string name="elder_brother">Elder Brother</string>
-    <string name="geeky_show">geeky show</string>
-    <string name="dummy_text">lorem ipsum lorem ipsum lorem ipsum</string>
-    <string name="about_him">About him</string>
-    <string name="country">Country</string>
-    <string name="profile_portfolio">Profile Portfolio</string>
-    <string name="name_for_boy">Chetan Arora</string>
-    <string name="textTitle">Hello popup</string>
 </resources>

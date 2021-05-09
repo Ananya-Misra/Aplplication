@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:fillViewport="true"
+   android:fillViewport="true"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
 <RelativeLayout
@@ -67,8 +67,9 @@
             android:textColor="@color/white"
             android:layout_marginTop="7dp"
             android:layout_height="wrap_content"
+            android:textAllCaps="true"
             android:textSize="12sp"
-            android:text="@string/phone"
+            android:text="@string/call"
             />
         <TextView android:id="@+id/tvCallInfo"
             android:layout_below="@+id/tvCall"
@@ -245,22 +246,15 @@
             android:textColor="@color/black"
             android:text="@string/sara_bellum"/>
         <TextView
-            android:id="@+id/tvLastName"
+            android:id="@+id/tvEducationInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
             android:textSize="17sp"
             android:layout_below="@id/tvFullName"
             android:textColor="@color/sea_green"
-            android:text="@string/last_name"/>
-        <TextView
-            android:id="@+id/tvEducationInfo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/tvLastName"
-            android:layout_marginStart="6dp"
-            android:textColor="@color/black"
             android:text="@string/education_info"/>
+
         <View
             android:id="@+id/vBelowName"
             android:layout_margin="8dp"
@@ -345,7 +339,7 @@
             android:layout_below="@+id/vBelowPersonalDetails"
             android:layout_toEndOf="@+id/tvHeight"
             android:padding="2dp"
-            android:text="@string/time_info"
+            android:text="@string/height_info"
             android:textColor="@color/black"
             android:textSize="8sp" />
 
