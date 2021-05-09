@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_height="wrap_content"
+<ScrollView android:layout_height="match_parent"
     android:layout_width="wrap_content"
+    android:fillViewport="true"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
 <RelativeLayout
     android:id="@+id/rlRootLayout"
     android:layout_width="match_parent"
-    android:background="@color/light_grey"
+    android:background="@color/white"
     android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <RelativeLayout
         android:id="@+id/rlLeftLayout"
         android:layout_width="150dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:padding="6dp"
         android:layout_marginBottom="2dp"
         android:background="@color/sea_green">
@@ -222,7 +226,7 @@
     <RelativeLayout
         android:id="@+id/rlRightLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_toEndOf="@+id/rlLeftLayout">
         <View
             android:id="@+id/vAboveName"
@@ -443,13 +447,7 @@
             android:text="@string/expectation_info"
             android:textColor="@color/black"
             android:textSize="8sp" />
-
-
-
-
-
-
     </RelativeLayout>
-
+    </RelativeLayout>
 </RelativeLayout>
 </ScrollView>
