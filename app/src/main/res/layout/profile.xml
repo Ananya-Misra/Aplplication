@@ -2,7 +2,7 @@
 <ScrollView android:layout_height="wrap_content"
     android:layout_width="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android" >
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
     android:layout_width="match_parent"
     android:padding="5dp"
     android:background="@color/white"
@@ -93,7 +93,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-
                 android:padding="4dp"
                 android:text="@string/expectations"
                 android:textColor="@color/dark_blue"
@@ -105,7 +104,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/vForExpectations"
                 android:layout_marginTop="5dp"
-                android:padding="8dp"
+                android:padding="4dp"
                 android:text="@string/family_info"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
@@ -126,7 +125,8 @@
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
-            android:layout_alignParentBottom="true"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/rlExpectationsLayout"
             android:background="#2c2c2c"
             android:padding="4dp">
 
@@ -159,6 +159,15 @@
                 android:layout_below="@+id/tvCallInfo"
                 android:padding="4dp"
                 android:text="@string/address_info"
+                android:textColor="@color/white"
+                android:textSize="8sp" />
+            <TextView
+                android:id="@+id/tvEmailInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvAddressInfo"
+                android:padding="4dp"
+                android:text="@string/email_info"
                 android:textColor="@color/white"
                 android:textSize="8sp" />
 
@@ -203,12 +212,12 @@
                 android:textSize="10sp" />
 
             <TextView
-                android:id="@+id/tvDOB"
+                android:id="@+id/tvLanguage"
                 android:layout_width="60dp"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvAboutInfo"
                 android:padding="2dp"
-                android:text="@string/d_o_b"
+                android:text="@string/language"
                 android:textColor="@color/black"
                 android:textSize="8sp" />
 
@@ -216,7 +225,7 @@
                 android:id="@+id/tvTime"
                 android:layout_width="60dp"
                 android:layout_height="20dp"
-                android:layout_below="@+id/tvDOB"
+                android:layout_below="@+id/tvLanguage"
                 android:padding="2dp"
                 android:text="@string/time"
                 android:textColor="@color/black"
@@ -287,7 +296,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvEducation"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="5dp"
                 android:text="@string/family"
                 android:textColor="@color/dark_blue"
                 android:textSize="12sp" />
@@ -303,12 +312,12 @@
                 android:textSize="9sp" />
 
             <TextView
-                android:id="@+id/tvDOBInfo"
+                android:id="@+id/tvLanguageInfo"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvAboutInfo"
-                android:layout_toEndOf="@+id/tvDOB"
-                android:text="@string/date_info"
+                android:layout_toEndOf="@+id/tvLanguage"
+                android:text="@string/language_info"
 
                 android:textColor="@color/black"
                 android:textSize="8sp" />
@@ -317,7 +326,7 @@
                 android:id="@+id/tvTimeInfo"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
-                android:layout_below="@+id/tvDOBInfo"
+                android:layout_below="@+id/tvLanguageInfo"
                 android:layout_toEndOf="@+id/tvTime"
                 android:padding="2dp"
                 android:text="@string/time_info"
@@ -375,7 +384,7 @@
                 android:layout_height="20dp"
                 android:layout_below="@+id/tvBloodGroupInfo"
                 android:layout_toEndOf="@+id/tvHobbies"
-                android:text="@string/photography"
+                android:text="@string/hobbies_info"
                 android:textColor="@color/black"
                 android:textSize="8sp" />
 

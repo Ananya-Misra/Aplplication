@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:layout_margin="5dp"
         android:clickable="true"
-        android:contentDescription="@string/cast"
+        android:contentDescription="@string/profile_image"
         android:focusable="true"
         android:src="@drawable/ic_home" />
 

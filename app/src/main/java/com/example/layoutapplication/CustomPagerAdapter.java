@@ -24,11 +24,14 @@ public class CustomPagerAdapter extends PagerAdapter {
     TextView tvAboutInfo;
     TextView tvCallInfo;
     TextView tvDOBInfo;
+    TextView tvEmailInfo;
+
     TextView tvEducationInfo;
     TextView tvExpectationsInfo;
     TextView tvFamilyInfo;
     TextView tvHeightInfo;
     TextView tvHobbiesInfo;
+    TextView tvLanguageInfo;
     TextView tvWeightInfo;
     TextView tvTimeInfo;
 
@@ -82,18 +85,19 @@ public class CustomPagerAdapter extends PagerAdapter {
         tvName = view.findViewById(R.id.tvFullName);
         tvAddressInfo=view.findViewById(R.id.tvAddressInfo);
         tvAgeInfo=view.findViewById(R.id.tvAgeInfo);
-        tvBloodGroupInfo=view.findViewById(R.id.tvBloodGroupInfo);//only in 2 out of 4 layouts
-        tvHobbiesInfo=view.findViewById(R.id.tvHobbiesInfo);//only in 2 out of 4 layouts
         tvAboutInfo = view.findViewById(R.id.tvAboutInfo);
+        tvBloodGroupInfo=view.findViewById(R.id.tvBloodGroupInfo);
         tvCallInfo = view.findViewById(R.id.tvCallInfo);
         tvDOBInfo = view.findViewById(R.id.tvDOBInfo);
+        tvEmailInfo = view.findViewById(R.id.tvEmailInfo);
         tvEducationInfo=view.findViewById(R.id.tvEducationInfo);
-        tvFamilyInfo=view.findViewById(R.id.tvFamilyInfo);//only in 2 out of 4 layouts
-        tvExpectationsInfo=view.findViewById(R.id.tvExpecationsInfo);//only in 2 out of 4 layouts
+        tvFamilyInfo=view.findViewById(R.id.tvFamilyInfo);
+        tvExpectationsInfo=view.findViewById(R.id.tvExpecationsInfo);
+        tvHobbiesInfo=view.findViewById(R.id.tvHobbiesInfo);
         tvHeightInfo=view.findViewById(R.id.tvHeightInfo);
+        tvLanguageInfo=view.findViewById(R.id.tvLanguageInfo);
         tvWeightInfo = view.findViewById(R.id.tvWeightInfo);
-        tvTimeInfo=view.findViewById(R.id.tvTimeInfo);//only in 3 out of 4 layouts
-
+        tvTimeInfo=view.findViewById(R.id.tvTimeInfo);
 
 
     }

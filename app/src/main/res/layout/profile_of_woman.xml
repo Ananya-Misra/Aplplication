@@ -211,13 +211,13 @@
                         android:text="@string/blood_group_info"/>
                     <TextView
                         android:id="@+id/tvHobbiesInfo"
-
+                        android:padding="2dp"
                         android:layout_width="match_parent"
                         android:layout_height="20dp"
                         android:textSize="8sp"
                         android:textColor="@color/black"
                         android:layout_below="@+id/tvBloodGroupInfo"
-                        android:text="@string/photography"/>
+                        android:text="@string/hobbies_info"/>
                     <TextView
                         android:id="@+id/tvEducationInfo"
                         android:padding="2dp"
@@ -227,14 +227,16 @@
                         android:textColor="@color/black"
                         android:layout_below="@+id/tvHobbiesInfo"
                         android:text="@string/education_info"/>
+
                     <TextView
                         android:id="@+id/tvLanguageInfo"
-                        android:textColor="@color/black"
                         android:layout_width="match_parent"
                         android:layout_height="20dp"
-                        android:textSize="8sp"
                         android:layout_below="@+id/tvEducationInfo"
-                        android:text="@string/english_hindi"/>
+                        android:padding="2dp"
+                        android:text="@string/language_info"
+                        android:textColor="@color/black"
+                        android:textSize="8sp" />
                 </RelativeLayout>
 
             </LinearLayout>
@@ -284,6 +286,24 @@
                 android:textColor="@color/black"
                 android:padding="4dp"
                 android:text="@string/address_info"/>
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvAddressInfo"
+                android:textSize="10sp"
+                android:padding="4dp"
+                android:textColor="@color/brown"
+                android:text="@string/email"/>
+            <TextView
+                android:id="@+id/tvEmailInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvEmail"
+                android:textSize="8sp"
+                android:textColor="@color/black"
+                android:padding="4dp"
+                android:text="@string/email_info"/>
         </RelativeLayout>
 
         <RelativeLayout
