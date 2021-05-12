@@ -215,7 +215,7 @@
             <TextView
                 android:id="@+id/tvLanguage"
                 android:layout_width="60dp"
-                android:layout_height="20dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/tvAboutInfo"
                 android:padding="2dp"
                 android:text="@string/language"
@@ -225,8 +225,8 @@
             <TextView
                 android:id="@+id/tvTime"
                 android:layout_width="60dp"
-                android:layout_height="20dp"
-                android:layout_below="@+id/tvLanguage"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvLanguageInfo"
                 android:padding="2dp"
                 android:text="@string/time"
                 android:textColor="@color/black"
@@ -235,8 +235,8 @@
             <TextView
                 android:id="@+id/tvAge"
                 android:layout_width="60dp"
-                android:layout_height="20dp"
-                android:layout_below="@+id/tvTime"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvTimeInfo"
                 android:padding="2dp"
                 android:text="@string/age"
                 android:textColor="@color/black"
@@ -245,8 +245,8 @@
             <TextView
                 android:id="@+id/tvWeight"
                 android:layout_width="60dp"
-                android:layout_height="20dp"
-                android:layout_below="@+id/tvAge"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvAgeInfo"
                 android:padding="2dp"
                 android:text="@string/weight"
                 android:textColor="@color/black"
@@ -255,8 +255,8 @@
             <TextView
                 android:id="@+id/tvHeight"
                 android:layout_width="60dp"
-                android:layout_height="20dp"
-                android:layout_below="@+id/tvWeight"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvWeightInfo"
                 android:padding="2dp"
                 android:text="@string/height"
                 android:textColor="@color/black"
@@ -265,8 +265,8 @@
             <TextView
                 android:id="@+id/tvBloodGroup"
                 android:layout_width="60dp"
-                android:layout_height="20dp"
-                android:layout_below="@+id/tvHeight"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvHeightInfo"
                 android:padding="2dp"
                 android:text="@string/blood_group"
                 android:textColor="@color/black"
@@ -275,8 +275,8 @@
             <TextView
                 android:id="@+id/tvHobbies"
                 android:layout_width="60dp"
-                android:layout_height="20dp"
-                android:layout_below="@+id/tvBloodGroup"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvBloodGroupInfo"
                 android:padding="2dp"
                 android:text="@string/hobbies"
                 android:textColor="@color/black"
@@ -285,8 +285,8 @@
             <TextView
                 android:id="@+id/tvEducation"
                 android:layout_width="60dp"
-                android:layout_height="20dp"
-                android:layout_below="@+id/tvHobbies"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvHobbiesInfo"
                 android:padding="2dp"
                 android:text="@string/education"
                 android:textColor="@color/black"
@@ -296,7 +296,7 @@
                 android:id="@+id/tvFamily"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/tvEducation"
+                android:layout_below="@+id/tvEducationInfo"
                 android:layout_marginTop="5dp"
                 android:text="@string/family"
                 android:textColor="@color/dark_blue"
@@ -315,7 +315,7 @@
             <TextView
                 android:id="@+id/tvLanguageInfo"
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/tvAboutInfo"
                 android:layout_toEndOf="@+id/tvLanguage"
                 android:text="@string/language_info"
@@ -326,7 +326,7 @@
             <TextView
                 android:id="@+id/tvTimeInfo"
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/tvLanguageInfo"
                 android:layout_toEndOf="@+id/tvTime"
                 android:padding="2dp"
@@ -338,7 +338,7 @@
             <TextView
                 android:id="@+id/tvAgeInfo"
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/tvTimeInfo"
                 android:layout_toEndOf="@+id/tvAge"
                 android:padding="2dp"
@@ -349,7 +349,7 @@
             <TextView
                 android:id="@+id/tvWeightInfo"
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/tvAgeInfo"
                 android:layout_toEndOf="@+id/tvWeight"
                 android:padding="2dp"
@@ -360,7 +360,7 @@
             <TextView
                 android:id="@+id/tvHeightInfo"
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/tvWeightInfo"
                 android:layout_toEndOf="@+id/tvHeight"
                 android:padding="2dp"
@@ -371,7 +371,7 @@
             <TextView
                 android:id="@+id/tvBloodGroupInfo"
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/tvHeightInfo"
                 android:layout_toEndOf="@+id/tvBloodGroup"
                 android:padding="2dp"
@@ -382,9 +382,10 @@
             <TextView
                 android:id="@+id/tvHobbiesInfo"
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/tvBloodGroupInfo"
                 android:layout_toEndOf="@+id/tvHobbies"
+                android:padding="2dp"
                 android:text="@string/hobbies_info"
                 android:textColor="@color/black"
                 android:textSize="8sp" />
@@ -392,7 +393,7 @@
             <TextView
                 android:id="@+id/tvEducationInfo"
                 android:layout_width="wrap_content"
-                android:layout_height="20dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/tvHobbiesInfo"
                 android:layout_toEndOf="@+id/tvEducation"
                 android:padding="2dp"

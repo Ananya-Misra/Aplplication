@@ -30,7 +30,7 @@
                 <TextView
                     android:id="@+id/tvHeight"
                     android:layout_width="60dp"
-                    android:layout_height="20dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="25dp"
                     android:padding="2dp"
@@ -41,8 +41,8 @@
                 <TextView
                     android:id="@+id/tvAge"
                     android:layout_width="60dp"
-                    android:layout_height="20dp"
-                    android:layout_below="@+id/tvHeight"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvHeightInfo"
                     android:layout_marginStart="5dp"
                     android:padding="2dp"
                     android:text="@string/age"
@@ -52,8 +52,8 @@
                 <TextView
                     android:id="@+id/tvWeight"
                     android:layout_width="60dp"
-                    android:layout_height="20dp"
-                    android:layout_below="@+id/tvAge"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvAgeInfo"
                     android:layout_marginStart="5dp"
                     android:padding="2dp"
                     android:text="@string/weight"
@@ -63,8 +63,8 @@
                 <TextView
                     android:id="@+id/tvTime"
                     android:layout_width="60dp"
-                    android:layout_height="20dp"
-                    android:layout_below="@+id/tvWeight"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvWeightInfo"
                     android:layout_marginStart="5dp"
                     android:padding="2dp"
                     android:text="@string/time"
@@ -74,8 +74,8 @@
                 <TextView
                     android:id="@+id/tvBloodGroup"
                     android:layout_width="60dp"
-                    android:layout_height="20dp"
-                    android:layout_below="@+id/tvTime"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvTimeInfo"
                     android:layout_marginStart="5dp"
                     android:padding="2dp"
                     android:text="@string/blood_group"
@@ -85,8 +85,8 @@
                 <TextView
                     android:id="@+id/tvDOB"
                     android:layout_width="60dp"
-                    android:layout_height="20dp"
-                    android:layout_below="@+id/tvBloodGroup"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvBloodGroupInfo"
                     android:layout_marginStart="5dp"
                     android:padding="2dp"
                     android:text="@string/d_o_b"
@@ -96,8 +96,8 @@
                 <TextView
                     android:id="@+id/tvHobbies"
                     android:layout_width="60dp"
-                    android:layout_height="20dp"
-                    android:layout_below="@+id/tvDOB"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDOBInfo"
                     android:layout_marginStart="5dp"
                     android:padding="2dp"
                     android:text="@string/hobbies"
@@ -107,8 +107,8 @@
                 <TextView
                     android:id="@+id/tvLanguage"
                     android:layout_width="60dp"
-                    android:layout_height="20dp"
-                    android:layout_below="@+id/tvHobbies"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvHobbiesInfo"
                     android:layout_marginStart="5dp"
                     android:padding="2dp"
                     android:text="@string/language"
@@ -118,8 +118,8 @@
                 <TextView
                     android:id="@+id/tvEducation"
                     android:layout_width="60dp"
-                    android:layout_height="20dp"
-                    android:layout_below="@+id/tvLanguage"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvLanguageInfo"
                     android:layout_marginStart="5dp"
                     android:padding="2dp"
                     android:text="@string/education"
@@ -129,7 +129,7 @@
                 <TextView
                     android:id="@+id/tvHeightInfo"
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp"
+                    android:layout_height="wrap_content"
                     android:layout_below="@+id/vBelowPersonalDetails"
                     android:layout_marginTop="25dp"
                     android:layout_toEndOf="@+id/tvHeight"
@@ -142,7 +142,7 @@
                 <TextView
                     android:id="@+id/tvAgeInfo"
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp"
+                    android:layout_height="wrap_content"
                     android:layout_below="@+id/tvHeightInfo"
                     android:layout_toRightOf="@+id/tvAge"
                     android:padding="2dp"
@@ -153,7 +153,7 @@
                 <TextView
                     android:id="@+id/tvWeightInfo"
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp"
+                    android:layout_height="wrap_content"
                     android:layout_below="@+id/tvAgeInfo"
                     android:layout_toEndOf="@+id/tvWeight"
                     android:padding="2dp"
@@ -164,7 +164,7 @@
                 <TextView
                     android:id="@+id/tvTimeInfo"
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp"
+                    android:layout_height="wrap_content"
                     android:layout_below="@+id/tvWeightInfo"
                     android:layout_toEndOf="@+id/tvTime"
                     android:padding="2dp"
@@ -175,7 +175,7 @@
                 <TextView
                     android:id="@+id/tvBloodGroupInfo"
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp"
+                    android:layout_height="wrap_content"
                     android:layout_below="@+id/tvTimeInfo"
                     android:layout_toEndOf="@+id/tvBloodGroup"
                     android:padding="2dp"
@@ -186,7 +186,7 @@
                 <TextView
                     android:id="@+id/tvDOBInfo"
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp"
+                    android:layout_height="wrap_content"
                     android:layout_below="@+id/tvBloodGroupInfo"
                     android:layout_toEndOf="@+id/tvDOB"
                     android:padding="2dp"
@@ -197,7 +197,7 @@
                 <TextView
                     android:id="@+id/tvHobbiesInfo"
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp"
+                    android:layout_height="wrap_content"
                     android:layout_below="@+id/tvDOBInfo"
                     android:layout_toEndOf="@+id/tvHobbies"
                     android:padding="2dp"
@@ -208,7 +208,7 @@
                 <TextView
                     android:id="@+id/tvLanguageInfo"
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp"
+                    android:layout_height="wrap_content"
                     android:layout_below="@+id/tvHobbiesInfo"
                     android:layout_toEndOf="@+id/tvLanguage"
                     android:padding="2dp"
@@ -219,7 +219,7 @@
                 <TextView
                     android:id="@+id/tvEducationInfo"
                     android:layout_width="wrap_content"
-                    android:layout_height="20dp"
+                    android:layout_height="wrap_content"
                     android:layout_below="@+id/tvLanguageInfo"
                     android:layout_toEndOf="@+id/tvEducation"
                     android:padding="2dp"
@@ -243,7 +243,7 @@
             <TextView
                 android:id="@+id/tvCall"
                 android:layout_width="40dp"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/tvContact"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="5dp"
@@ -255,8 +255,8 @@
             <TextView
                 android:id="@+id/tvEmail"
                 android:layout_width="40dp"
-                android:layout_height="30dp"
-                android:layout_below="@+id/tvCall"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvCallInfo"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="5dp"
                 android:padding="2dp"
@@ -267,8 +267,8 @@
             <TextView
                 android:id="@+id/tvAddress"
                 android:layout_width="40dp"
-                android:layout_height="25dp"
-                android:layout_below="@+id/tvEmail"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvEmailInfo"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="5dp"
                 android:padding="2dp"
@@ -279,7 +279,7 @@
             <TextView
                 android:id="@+id/tvCallInfo"
                 android:layout_width="wrap_content"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/tvContact"
                 android:layout_marginTop="5dp"
                 android:layout_toEndOf="@+id/tvCall"
@@ -291,7 +291,7 @@
             <TextView
                 android:id="@+id/tvEmailInfo"
                 android:layout_width="wrap_content"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/tvCallInfo"
                 android:layout_marginTop="5dp"
                 android:layout_toEndOf="@+id/tvEmail"
@@ -303,7 +303,7 @@
             <TextView
                 android:id="@+id/tvAddressInfo"
                 android:layout_width="wrap_content"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/tvEmailInfo"
                 android:layout_marginTop="5dp"
                 android:layout_toEndOf="@+id/tvAddress"
