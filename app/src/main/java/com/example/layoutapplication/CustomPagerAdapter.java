@@ -11,6 +11,8 @@ import android.widget.TextView;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.layoutapplication.model.UserBiodataModel;
+
 import java.util.ArrayList;
 
 public class CustomPagerAdapter extends PagerAdapter {
@@ -38,10 +40,12 @@ public class CustomPagerAdapter extends PagerAdapter {
     TextView tvLanguageInfo;
     TextView tvWeightInfo;
     TextView tvTimeInfo;
+    UserBiodataModel userBiodataModel;
 
-    public CustomPagerAdapter(Context context, ArrayList<Integer> pager) {
+    public CustomPagerAdapter(Context context, ArrayList<Integer> pager,UserBiodataModel userBiodataModel) {
         this.context = context;
         this.pager = pager;
+        this.userBiodataModel = userBiodataModel;
     }
 
     @Override
@@ -87,7 +91,15 @@ public class CustomPagerAdapter extends PagerAdapter {
         tvWeightInfo = view.findViewById(R.id.tvWeightInfo);
         tvTimeInfo = view.findViewById(R.id.tvTimeInfo);
 
+        setBiodataValues();
+    }
 
+    private void setBiodataValues() {
+        if (userBiodataModel!=null){
+            if(!TextUtils.isEmpty(userBiodataModel.getBioName())){
+                tvName.setText(userBiodataModel.getBioName());
+            }
+        }
     }
 
     @Override

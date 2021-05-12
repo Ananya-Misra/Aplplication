@@ -13,6 +13,8 @@ import android.widget.TextView;
 
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.layoutapplication.model.UserBiodataModel;
+
 import java.util.ArrayList;
 
 public class PopUpClass {
@@ -63,7 +65,8 @@ public class PopUpClass {
         layout_dot = popupView.findViewById(R.id.layout_dot);
         arrayList = new ArrayList<>();
 
-        CustomPagerAdapter pagerAdapter = new CustomPagerAdapter(context, arrayList);
+        UserBiodataModel userBiodataModel = new UserBiodataModel();
+        CustomPagerAdapter pagerAdapter = new CustomPagerAdapter(context, arrayList,userBiodataModel);
         viewPager.setAdapter(pagerAdapter);
         viewPager.setPageMargin(10);
         addDot(0, context);
