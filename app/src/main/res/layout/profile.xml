@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_height="wrap_content"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:padding="5dp"
-    android:background="@color/white"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="5dp">
 
         <RelativeLayout
             android:id="@+id/topHeader"
-            android:background="@color/dark_blue"
             android:layout_width="match_parent"
-            android:layout_height="200dp">
+            android:layout_height="200dp"
+            android:background="@color/dark_blue">
 
             <TextView
                 android:id="@+id/tvFullName"
@@ -33,17 +33,15 @@
                 android:layout_marginTop="35dp"
                 android:layout_marginRight="5dp"
                 android:layout_toRightOf="@+id/tvFullName"
-                android:background="@color/white">
-            </View>
+                android:background="@color/white"></View>
 
             <View
                 android:id="@+id/vForImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="40dp"
                 android:layout_below="@+id/tvFullName"
-                android:background="@color/white">
-            </View>
+                android:layout_marginTop="40dp"
+                android:background="@color/white"></View>
 
             <RelativeLayout
                 android:id="@+id/rlRootLayout"
@@ -52,13 +50,14 @@
                 android:layout_below="@+id/tvFullName"
                 android:layout_marginTop="50dp"
                 android:background="@color/black">
+
                 <TextView
                     android:id="@+id/tvDOBInfo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="true"
-                    android:layout_alignParentRight="true"
                     android:layout_marginRight="49dp"
                     android:text="@string/date_info"
                     android:textColor="@color/white" />
@@ -67,14 +66,14 @@
             </RelativeLayout>
 
             <ImageView
-                android:contentDescription="@string/profile_image"
                 android:id="@+id/imgProfile"
                 android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_below="@+id/tvFullName"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="25dp"
-                android:layout_below="@+id/tvFullName"
-                android:src="@drawable/profilemen"
-                android:layout_height="110dp"/>
+                android:contentDescription="@string/profile_image"
+                android:src="@drawable/profilemen" />
         </RelativeLayout>
 
 
@@ -82,11 +81,11 @@
             android:id="@+id/rlExpectationsLayout"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-           android:padding="2dp"
             android:layout_below="@+id/topHeader"
             android:layout_marginStart="2dp"
             android:layout_marginTop="15dp"
-            android:background="@color/grey">
+            android:background="@color/grey"
+            android:padding="2dp">
 
             <TextView
                 android:id="@+id/tvExpectation"
@@ -125,9 +124,9 @@
             android:id="@+id/rlContactLayout"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/rlExpectationsLayout"
             android:layout_marginStart="2dp"
             android:layout_marginTop="4dp"
-            android:layout_below="@+id/rlExpectationsLayout"
             android:background="#2c2c2c"
             android:padding="4dp">
 
@@ -162,6 +161,7 @@
                 android:text="@string/address_info"
                 android:textColor="@color/white"
                 android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tvEmailInfo"
                 android:layout_width="wrap_content"
@@ -318,8 +318,8 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvAboutInfo"
                 android:layout_toEndOf="@+id/tvLanguage"
-                android:text="@string/language_info"
                 android:padding="2dp"
+                android:text="@string/language_info"
                 android:textColor="@color/black"
                 android:textSize="8sp" />
 
@@ -417,5 +417,5 @@
                 android:layout_below="@+id/tvFamily"
                 android:background="@color/black" />
         </RelativeLayout>
-</RelativeLayout>
+    </RelativeLayout>
 </ScrollView>
