@@ -15,6 +15,9 @@
     <color name="grey">#ebebeb</color>
     <color name="sea_green">#04adb2</color>
     <color name="light_blue">#76707a</color>
+    <color name="golden">#d89729</color>
+    <color name="dark_brown">#6a4f37</color>
+    <color name="faded_yellow">#f2e7d3</color>
     <color name="maroon">#5b002e</color>
     <color name="faded_grey">#e7dfec</color>
     <color name="light_pink">#fdeadc</color>
