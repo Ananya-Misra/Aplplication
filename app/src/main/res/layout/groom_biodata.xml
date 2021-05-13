@@ -180,7 +180,7 @@
             android:layout_height="160dp"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="18dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginEnd="15dp"
             android:contentDescription="@string/sara_bellum"
             android:padding="5dp"
             android:src="@drawable/profileholder"
