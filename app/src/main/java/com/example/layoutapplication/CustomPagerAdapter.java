@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class CustomPagerAdapter extends PagerAdapter {
 
     int[] bioLayouts = {R.layout.profile_of_woman, R.layout.profile_of_man
-            , R.layout.profile, R.layout.biodata_of_man,R.layout.biodata_of_woman,R.layout.woman_biodata,R.layout.bride_biodata,R.layout.groom_biodata};
+            , R.layout.profile, R.layout.biodata_of_man,R.layout.biodata_of_woman,R.layout.woman_biodata,R.layout.bride_biodata,R.layout.groom_biodata,R.layout.groom_profile};
 
     Context context;
     ArrayList<Integer> pager;

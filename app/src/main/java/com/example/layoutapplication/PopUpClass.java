@@ -92,7 +92,7 @@ public class PopUpClass {
     }
 
     public void addDot(int page_position, Context context) {
-        dot = new TextView[8];
+        dot = new TextView[9];
         layout_dot.removeAllViews();
 
         for (int i = 0; i < dot.length; i++) {
