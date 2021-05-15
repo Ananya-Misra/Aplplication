@@ -49,4 +49,6 @@
     <string name="sibling">Sibling</string>
     <string name="family">Family</string>
     <string name="sibling_info">Unknown</string>
+    <string name="mother_info">Unknown</string>
+    <string name="father_info">Unknown</string>
 </resources>

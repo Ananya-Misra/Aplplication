@@ -447,7 +447,7 @@
                 android:layout_below="@id/tvFamily"
                 android:layout_toEndOf="@+id/tvFatherName"
                 android:padding="2dp"
-                android:text="@string/date_info"
+                android:text="@string/father_info"
                 android:textColor="@color/black"
                 android:textSize="12sp" />
 
@@ -458,7 +458,7 @@
                 android:layout_below="@+id/tvFatherNameInfo"
                 android:layout_toEndOf="@+id/tvMotherName"
                 android:padding="2dp"
-                android:text="@string/hobbies_info"
+                android:text="@string/mother_info"
                 android:textColor="@color/black"
                 android:textSize="12sp" />
 
