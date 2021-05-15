@@ -19,7 +19,7 @@
             <RelativeLayout
                 android:id="@+id/rlLeftLayout"
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginBottom="2dp"
                 android:background="@color/sea_green"
                 android:padding="6dp">
@@ -271,7 +271,7 @@
             <RelativeLayout
                 android:id="@+id/rlRightLayout"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_toEndOf="@+id/rlLeftLayout">
 
                 <View

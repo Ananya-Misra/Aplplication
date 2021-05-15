@@ -31,7 +31,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="49dp"
-            android:fontFamily="@font/hortonregular"
+            android:fontFamily="@fonts/hortonregular"
             android:text="@string/sara_bellum"
             android:textColor="@color/black"
             android:textSize="25sp" />

@@ -69,7 +69,7 @@ public class PopUpClass {
         CustomPagerAdapter pagerAdapter = new CustomPagerAdapter(context, arrayList,userBiodataModel);
         viewPager.setAdapter(pagerAdapter);
         viewPager.setPageMargin(10);
-        addDot(0, context);
+        addDot(0, context,pagerAdapter.getCount());
 
 
         // whenever the page changes
@@ -81,7 +81,7 @@ public class PopUpClass {
 
             @Override
             public void onPageSelected(int i) {
-                addDot(i, context);
+                addDot(i, context,pagerAdapter.getCount());
             }
 
             @Override
@@ -91,8 +91,8 @@ public class PopUpClass {
         });
     }
 
-    public void addDot(int page_position, Context context) {
-        dot = new TextView[9];
+    public void addDot(int page_position, Context context,int count) {
+        dot = new TextView[count];
         layout_dot.removeAllViews();
 
         for (int i = 0; i < dot.length; i++) {

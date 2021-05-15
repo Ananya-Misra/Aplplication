@@ -28,4 +28,5 @@
     <color name="light_pink">#fdeadc</color>
     <color name="light_grey">#e7e5e8</color>
     <color name="light_brown">#ac937f</color>
+    <color name="gallery_text_color">#FF02BCD5</color>
 </resources>

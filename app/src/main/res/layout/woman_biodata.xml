@@ -445,7 +445,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="25dp"
-                android:fontFamily="@font/hortonregular"
+                android:fontFamily="@fonts/hortonregular"
                 android:text="@string/sara_bellum"
                 android:textColor="@color/light_brown"
                 android:textSize="25sp" />
