@@ -6,14 +6,14 @@ public class UserBiodataModel {
     String bioDob = "";
     String bioTime = "";
     String bioHeight = "";
-    String bioComplexion = "";
+    String bioComplexion = "";//not required
     String bioBirthPlace = "";
     String bioCityLiving = "";
 
     String bioReligion = "";
-    String bioCaste = "";
-    String bioZodiac = "";
-    String bioCasteExtra = "";
+    String bioCaste = "";//not required
+    String bioZodiac = "";//not required
+    String bioCasteExtra = "";//not required
     String bioEducation = "";
     String bioOccupation = "";
     String bioOrganisation = "";
@@ -22,10 +22,10 @@ public class UserBiodataModel {
     String bioFatjerName = "";
     String bioMotherName = "";
     String bioSibling = "";
-    String bioPaternal = "";
-    String bioMaternal = "";
+    String bioPaternal = "";//not required
+    String bioMaternal = "";//not required
 
-    String bioAboutFamily = "";
+    String bioAboutFamily = "";//not required
     String bioAboutMe = "";
 
     String bioContact = "";

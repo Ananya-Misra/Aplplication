@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:layout_margin="5dp"
         android:clickable="true"
-        android:contentDescription="@string/profile_image"
+        android:contentDescription="@string/sara_bellum"
         android:focusable="true"
         android:src="@drawable/ic_home" />
 

@@ -25,21 +25,29 @@ public class CustomPagerAdapter extends PagerAdapter {
     TextView tvName;
     TextView tvAddressInfo;
     TextView tvAgeInfo;
+    TextView tvBirthPlaceInfo;
     TextView tvBloodGroupInfo;
     ImageView imgProfile;
     TextView tvAboutInfo;
     TextView tvCallInfo;
+    TextView tvCityInfo;
     TextView tvDOBInfo;
     TextView tvEmailInfo;
 
     TextView tvEducationInfo;
     TextView tvExpectationsInfo;
-    TextView tvFamilyInfo;
+    TextView tvFatherNameInfo;
+    TextView tvMotherNameInfo;
+    TextView tvSiblingInfo;
+    TextView tvOcuppationInfo;
+    TextView tvReligionInfo;
     TextView tvHeightInfo;
     TextView tvHobbiesInfo;
     TextView tvLanguageInfo;
     TextView tvWeightInfo;
+    TextView tvSalaryInfo;
     TextView tvTimeInfo;
+
     UserBiodataModel userBiodataModel;
 
     public CustomPagerAdapter(Context context, ArrayList<Integer> pager,UserBiodataModel userBiodataModel) {
@@ -78,17 +86,24 @@ public class CustomPagerAdapter extends PagerAdapter {
         tvAddressInfo = view.findViewById(R.id.tvAddressInfo);
         tvAgeInfo = view.findViewById(R.id.tvAgeInfo);
         tvAboutInfo = view.findViewById(R.id.tvAboutInfo);
+        tvBirthPlaceInfo = view.findViewById(R.id.tvBirthPlaceInfo);
         tvBloodGroupInfo = view.findViewById(R.id.tvBloodGroupInfo);
         tvCallInfo = view.findViewById(R.id.tvCallInfo);
+        tvCityInfo = view.findViewById(R.id.tvCityInfo);
         tvDOBInfo = view.findViewById(R.id.tvDOBInfo);
         tvEmailInfo = view.findViewById(R.id.tvEmailInfo);
         tvEducationInfo = view.findViewById(R.id.tvEducationInfo);
-        tvFamilyInfo = view.findViewById(R.id.tvFamilyInfo);
         tvExpectationsInfo = view.findViewById(R.id.tvExpecationsInfo);
+        tvFatherNameInfo = view.findViewById(R.id.tvFatherNameInfo);
         tvHobbiesInfo = view.findViewById(R.id.tvHobbiesInfo);
         tvHeightInfo = view.findViewById(R.id.tvHeightInfo);
         tvLanguageInfo = view.findViewById(R.id.tvLanguageInfo);
+        tvMotherNameInfo = view.findViewById(R.id.tvMotherNameInfo);
+        tvOcuppationInfo=view.findViewById(R.id.tvOccupationInfo);
         tvWeightInfo = view.findViewById(R.id.tvWeightInfo);
+        tvReligionInfo=view.findViewById(R.id.tvReligionInfo);
+        tvSalaryInfo = view.findViewById(R.id.tvSalaryInfo);
+        tvSiblingInfo = view.findViewById(R.id.tvSiblingInfo);
         tvTimeInfo = view.findViewById(R.id.tvTimeInfo);
 
         setBiodataValues();
