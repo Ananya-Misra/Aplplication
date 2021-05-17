@@ -438,6 +438,7 @@
                 android:layout_marginTop="5dp"
                 android:padding="2dp"
                 android:text="@string/occupation"
+                android:textAllCaps="true"
                 android:textColor="@color/maroon" />
 
             <View
@@ -468,6 +469,7 @@
                 android:layout_marginTop="5dp"
                 android:padding="2dp"
                 android:text="@string/family_background"
+                android:textAllCaps="true"
                 android:textColor="@color/maroon" />
 
             <View
