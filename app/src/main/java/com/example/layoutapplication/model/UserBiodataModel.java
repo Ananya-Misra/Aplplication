@@ -5,6 +5,15 @@ public class UserBiodataModel {
     String bioName = "";
     String bioDob = "";
     String bioTime = "";
+
+    String bioWeight = "";
+    String bioBloodGroup = "";
+    String bioLanguage = "";
+    String bioHobbies = "";
+    String bioAge = "";
+    String bioAddress="";
+    String bioEmail="";
+
     String bioHeight = "";
     String bioComplexion = "";//not required
     String bioBirthPlace = "";
@@ -55,6 +64,62 @@ public class UserBiodataModel {
     public void setBioTime(String bioTime) {
         this.bioTime = bioTime;
     }
+
+
+    public String getBioWeight() {
+        return bioWeight;
+    }
+
+    public void setBioWeight(String bioWeight) {
+        this.bioWeight = bioWeight;
+    }
+
+    public String getBioAge() {
+        return bioAge;
+    }
+
+    public void setBioAge(String bioAge) {
+        this.bioAge = bioAge;
+    }
+
+    public String getBioHobbies() { return bioHobbies; }
+    public void setBioHobbies(String bioHobbies) {
+        this.bioHobbies = bioHobbies;
+    }
+
+    public String getBioLanguage() {
+        return bioLanguage;
+    }
+
+    public void setBioLanguage(String bioLanguage) {
+        this.bioLanguage = bioLanguage;
+    }
+
+    public String getBioBloodGroup() {
+        return bioBloodGroup;
+    }
+
+    public void setBioBloodGroup(String bioBloodGroup) {
+        this.bioBloodGroup = bioBloodGroup;
+    }
+
+    public String getBioAddress() {
+        return bioAddress;
+    }
+
+    public void setBioAddress(String bioAddress) {
+        this.bioAddress = bioAddress;
+    }
+
+    public String getBioEmail() {
+        return bioEmail;
+    }
+
+    public void setBioEmail(String bioEmail) {
+        this.bioEmail = bioEmail;
+    }
+
+
 
     public String getBioHeight() {
         return bioHeight;
@@ -239,6 +304,13 @@ public class UserBiodataModel {
                 ", bioDob='" + bioDob + '\'' +
                 ", bioTime='" + bioTime + '\'' +
                 ", bioHeight='" + bioHeight + '\'' +
+                ", bioWeight='" + bioWeight + '\'' +//1
+                ", bioAge='" + bioAge + '\'' +//2
+                ", bioEmail='" + bioEmail + '\'' +//3
+                ", bioBloodGroup='" + bioBloodGroup + '\'' +//4
+                ", bioAddress='" + bioAddress + '\'' +//5
+                ", bioLanguage='" + bioLanguage + '\'' +//6
+                ", bioHobbies='" + bioHobbies + '\'' +//7
                 ", bioComplexion='" + bioComplexion + '\'' +
                 ", bioBirthPlace='" + bioBirthPlace + '\'' +
                 ", bioCityLiving='" + bioCityLiving + '\'' +

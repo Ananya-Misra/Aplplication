@@ -100,19 +100,26 @@ public class PopUpClass {
         userBiodataModel.setBioDob("15/06/2010");//2
         userBiodataModel.setBioTime("5:30 PM");//3
         userBiodataModel.setBioHeight("5'5");//4
-        userBiodataModel.setBioBirthPlace("Srinagar");//5
-        userBiodataModel.setBioCityLiving("Jaipur");//6
-        userBiodataModel.setBioReligion("Christianity");//7
-        userBiodataModel.setBioEducation("Post Graduation in the field of something");//8
-        userBiodataModel.setBioOccupation("Doctor");//9
-        userBiodataModel.setBioSalary("6 lakh per annum");//10
-        userBiodataModel.setBioFatherName("Mr Unknown");//11
-        userBiodataModel.setBioMotherName("Mrs Unknown");//12
-        userBiodataModel.setBioSibling("Miss Prema Prasad and Mr Harim Prasad");//13
-        userBiodataModel.setBioAboutMe("Well I don't know much about myself I will tell you once I myself have figured that out.This text just need to be 3 lines long, I am trying to just do that.");//14
-        userBiodataModel.setBioContact("929299299292");//15
-        userBiodataModel.setBioLookingFor("This doesn't need to make sense the only requirement for this field is to be long enough so bla bla bla bla bla. ");//16
-        userBiodataModel.setBioProfileImage("R.drawable.character");
+        userBiodataModel.setBioAge("23 Years");//5
+        userBiodataModel.setBioAddress("Street 14,Cape Town");//6
+        userBiodataModel.setBioEmail("abracadabra@gmail.com");//7
+        userBiodataModel.setBioWeight("69kg");//8
+        userBiodataModel.setBioHobbies("Photography and Skating");//9
+        userBiodataModel.setBioLanguage("French,Spanish,English and Hindi");//10
+        userBiodataModel.setBioBloodGroup("O+");//11
+        userBiodataModel.setBioBirthPlace("Srinagar");//12
+        userBiodataModel.setBioCityLiving("Jaipur");//13
+        userBiodataModel.setBioReligion("Christianity");//14
+        userBiodataModel.setBioEducation("Post Graduation in the field of something");//15
+        userBiodataModel.setBioOccupation("Doctor");//16
+        userBiodataModel.setBioSalary("6 lakh per annum");//17
+        userBiodataModel.setBioFatherName("Mr Unknown");//18
+        userBiodataModel.setBioMotherName("Mrs Unknown");//19
+        userBiodataModel.setBioSibling("Miss Prema Prasad and Mr Harim Prasad");//20
+        userBiodataModel.setBioAboutMe("Well I don't know much about myself I will tell you once I myself have figured that out.This text just need to be 3 lines long, I am trying to just do that.");//21
+        userBiodataModel.setBioContact("929299299292");//22
+        userBiodataModel.setBioLookingFor("This doesn't need to make sense the only requirement for this field is to be long enough so bla bla bla bla bla. ");//23
+        userBiodataModel.setBioProfileImage("R.drawable.character");//24
         return userBiodataModel;
     }
 

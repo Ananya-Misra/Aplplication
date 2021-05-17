@@ -345,7 +345,7 @@
                 android:padding="2dp"
                 android:text="@string/religon"
                 android:textColor="@color/black"
-                android:textSize="9sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvSalary"
@@ -356,7 +356,7 @@
                 android:padding="2dp"
                 android:text="@string/salary"
                 android:textColor="@color/black"
-                android:textSize="9sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvBirthPlace"
@@ -366,7 +366,7 @@
                 android:padding="2dp"
                 android:text="@string/birth_place"
                 android:textColor="@color/black"
-                android:textSize="9sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvCity"
@@ -376,7 +376,7 @@
                 android:padding="2dp"
                 android:text="@string/city"
                 android:textColor="@color/black"
-                android:textSize="9sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvLanguageInfo"
@@ -476,7 +476,7 @@
                 android:padding="2dp"
                 android:text="@string/religon_info"
                 android:textColor="@color/black"
-                android:textSize="9sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvSalaryInfo"
@@ -487,7 +487,7 @@
                 android:padding="2dp"
                 android:text="@string/salary_info"
                 android:textColor="@color/black"
-                android:textSize="9sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvBirthPlaceInfo"
@@ -498,7 +498,7 @@
                 android:padding="2dp"
                 android:text="@string/birthplace_info"
                 android:textColor="@color/black"
-                android:textSize="9sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvCityInfo"
@@ -509,7 +509,7 @@
                 android:padding="2dp"
                 android:text="@string/city_info"
                 android:textColor="@color/black"
-                android:textSize="9sp" />
+                android:textSize="8sp" />
 
 
             <TextView

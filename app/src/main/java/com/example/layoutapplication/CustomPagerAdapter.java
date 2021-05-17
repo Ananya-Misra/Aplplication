@@ -124,47 +124,68 @@ public class CustomPagerAdapter extends PagerAdapter {
             if(!TextUtils.isEmpty(userBiodataModel.getBioHeight()) && tvHeightInfo!=null){
                 tvHeightInfo.setText(userBiodataModel.getBioHeight());//4
             }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioAge()) && tvAgeInfo!=null){
+                tvAgeInfo.setText(userBiodataModel.getBioAge());//5
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioAddress()) && tvAddressInfo!=null){
+                tvAddressInfo.setText(userBiodataModel.getBioAddress());//6
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioEmail()) && tvEmailInfo!=null){
+                tvEmailInfo.setText(userBiodataModel.getBioEmail());//7
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioWeight()) && tvWeightInfo!=null){
+                tvWeightInfo.setText(userBiodataModel.getBioWeight());//8
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioHobbies()) && tvHobbiesInfo!=null){
+                tvHobbiesInfo.setText(userBiodataModel.getBioHobbies());//9
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioLanguage()) && tvLanguageInfo!=null){
+                tvLanguageInfo.setText(userBiodataModel.getBioLanguage());//10
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioBloodGroup()) && tvBloodGroupInfo!=null){
+                tvBloodGroupInfo.setText(userBiodataModel.getBioBloodGroup());//11
+            }
             if(!TextUtils.isEmpty(userBiodataModel.getBioBirthPlace()) && tvBirthPlaceInfo!=null){
-                tvBirthPlaceInfo.setText(userBiodataModel.getBioBirthPlace());//5
+                tvBirthPlaceInfo.setText(userBiodataModel.getBioBirthPlace());//12
             }
             if(!TextUtils.isEmpty(userBiodataModel.getBioCityLiving()) && tvCityInfo!=null){
-                tvCityInfo.setText(userBiodataModel.getBioCityLiving());//6
+                tvCityInfo.setText(userBiodataModel.getBioCityLiving());//13
             }
             if(!TextUtils.isEmpty(userBiodataModel.getBioReligion()) && tvReligionInfo!=null){
-                tvReligionInfo.setText(userBiodataModel.getBioReligion());//7
+                tvReligionInfo.setText(userBiodataModel.getBioReligion());//14
             }
             if(!TextUtils.isEmpty(userBiodataModel.getBioEducation()) && tvEducationInfo!=null){
-                tvEducationInfo.setText(userBiodataModel.getBioEducation());//8
+                tvEducationInfo.setText(userBiodataModel.getBioEducation());//15
             }
             if(!TextUtils.isEmpty(userBiodataModel.getBioOccupation()) && tvOcuppationInfo!=null){
-                tvOcuppationInfo.setText(userBiodataModel.getBioOccupation());//9
+                tvOcuppationInfo.setText(userBiodataModel.getBioOccupation());//16
             }
             if(!TextUtils.isEmpty(userBiodataModel.getBioSalary()) && tvSalaryInfo!=null){
-                tvSalaryInfo.setText(userBiodataModel.getBioSalary());//10
+                tvSalaryInfo.setText(userBiodataModel.getBioSalary());//17
             }
             if(!TextUtils.isEmpty(userBiodataModel.getBioFatherName()) && tvFatherNameInfo!=null){
-                tvFatherNameInfo.setText(userBiodataModel.getBioFatherName());//11
+                tvFatherNameInfo.setText(userBiodataModel.getBioFatherName());//18
             }
             if(!TextUtils.isEmpty(userBiodataModel.getBioMotherName()) && tvMotherNameInfo!=null){
-                tvMotherNameInfo.setText(userBiodataModel.getBioMotherName());//12
+                tvMotherNameInfo.setText(userBiodataModel.getBioMotherName());//19
             }
             if(!TextUtils.isEmpty(userBiodataModel.getBioSibling()) && tvSiblingInfo!=null){
-                tvSiblingInfo.setText(userBiodataModel.getBioSibling());//13
+                tvSiblingInfo.setText(userBiodataModel.getBioSibling());//20
             }
             if(!TextUtils.isEmpty(userBiodataModel.getBioAboutMe()) && tvAboutInfo!=null){
-                tvAboutInfo.setText(userBiodataModel.getBioAboutMe());//14
+                tvAboutInfo.setText(userBiodataModel.getBioAboutMe());//21
             }
             if(!TextUtils.isEmpty(userBiodataModel.getBioContact()) && tvCallInfo!=null){
-                tvCallInfo.setText(userBiodataModel.getBioContact());//15
+                tvCallInfo.setText(userBiodataModel.getBioContact());//22
             }
             if(!TextUtils.isEmpty(userBiodataModel.getBioLookingFor()) && tvExpectationsInfo!=null){
-                tvExpectationsInfo.setText(userBiodataModel.getBioLookingFor());//16
+                tvExpectationsInfo.setText(userBiodataModel.getBioLookingFor());//23
             }
             if(!TextUtils.isEmpty(userBiodataModel.getBioProfileImage()) && imgProfile!=null){
                 Glide.with(context)
                         .load(userBiodataModel.getBioProfileImage())
                         .placeholder(R.drawable.profileholder)
-                        .into(imgProfile);
+                        .into(imgProfile);//24
             }
         }
     }
