@@ -525,7 +525,7 @@
 
             <TextView
                 android:id="@+id/tvExpectations"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvOccupationInfo"
                 android:layout_margin="5dp"
