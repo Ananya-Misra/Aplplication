@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import com.bumptech.glide.Glide;
 import com.example.layoutapplication.model.UserBiodataModel;
 
 import java.util.ArrayList;
@@ -159,9 +160,12 @@ public class CustomPagerAdapter extends PagerAdapter {
             if(!TextUtils.isEmpty(userBiodataModel.getBioLookingFor()) && tvExpectationsInfo!=null){
                 tvExpectationsInfo.setText(userBiodataModel.getBioLookingFor());//16
             }
-//            if(!TextUtils.isEmpty(userBiodataModel.getBioProfileImage()) && imgProfile!=null){
-//                imgProfile.setImageResource(userBiodataModel.getBioProfileImage());//17
-//            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioProfileImage()) && imgProfile!=null){
+                Glide.with(context)
+                        .load(userBiodataModel.getBioProfileImage())
+                        .placeholder(R.drawable.profileholder)
+                        .into(imgProfile);
+            }
         }
     }
 

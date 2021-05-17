@@ -112,6 +112,7 @@ public class PopUpClass {
         userBiodataModel.setBioAboutMe("Well I don't know much about myself I will tell you once I myself have figured that out.This text just need to be 3 lines long, I am trying to just do that.");//14
         userBiodataModel.setBioContact("929299299292");//15
         userBiodataModel.setBioLookingFor("This doesn't need to make sense the only requirement for this field is to be long enough so bla bla bla bla bla. ");//16
+        userBiodataModel.setBioProfileImage("R.drawable.character");
         return userBiodataModel;
     }
 
