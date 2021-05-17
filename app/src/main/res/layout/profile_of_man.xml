@@ -178,7 +178,7 @@
                     android:padding="4dp"
                     android:text="@string/date_info"
                     android:textColor="@color/white"
-                    android:textSize="12sp" />
+                    android:textSize="10sp" />
 
                 <TextView
                     android:id="@+id/tvHobbies"
@@ -207,7 +207,7 @@
                     android:padding="4dp"
                     android:text="@string/hobbies_info"
                     android:textColor="@color/white"
-                    android:textSize="12sp" />
+                    android:textSize="10sp" />
 
                 <TextView
                     android:id="@+id/tvLanguage"
@@ -235,7 +235,7 @@
                     android:padding="4dp"
                     android:text="@string/language_info"
                     android:textColor="@color/white"
-                    android:textSize="12sp" />
+                    android:textSize="10sp" />
 
                 <TextView
                     android:id="@+id/tvBirthPlace"
@@ -264,7 +264,7 @@
                     android:padding="4dp"
                     android:text="@string/birthplace_info"
                     android:textColor="@color/white"
-                    android:textSize="12sp" />
+                    android:textSize="10sp" />
 
             </RelativeLayout>
 
@@ -599,7 +599,7 @@
                     android:padding="2dp"
                     android:text="@string/father_name"
                     android:textColor="@color/black"
-                    android:textSize="9sp" />
+                    android:textSize="8sp" />
 
                 <TextView
                     android:id="@+id/tvMotherName"
@@ -610,7 +610,7 @@
                     android:padding="2dp"
                     android:text="@string/mother_name"
                     android:textColor="@color/black"
-                    android:textSize="9sp" />
+                    android:textSize="8sp" />
 
                 <TextView
                     android:id="@+id/tvSibling"
@@ -621,7 +621,7 @@
                     android:padding="2dp"
                     android:text="@string/sibling"
                     android:textColor="@color/black"
-                    android:textSize="9sp" />
+                    android:textSize="8sp" />
 
                 <TextView
                     android:id="@+id/tvFatherNameInfo"
@@ -633,7 +633,7 @@
                     android:padding="2dp"
                     android:text="@string/date_info"
                     android:textColor="@color/black"
-                    android:textSize="9sp" />
+                    android:textSize="8sp" />
 
                 <TextView
                     android:id="@+id/tvMotherNameInfo"
@@ -644,7 +644,7 @@
                     android:padding="2dp"
                     android:text="@string/hobbies_info"
                     android:textColor="@color/black"
-                    android:textSize="9sp" />
+                    android:textSize="8sp" />
 
                 <TextView
                     android:id="@+id/tvSiblingInfo"
@@ -655,7 +655,7 @@
                     android:padding="2dp"
                     android:text="@string/sibling_info"
                     android:textColor="@color/black"
-                    android:textSize="9sp" />
+                    android:textSize="8sp" />
 
             </RelativeLayout>
         </RelativeLayout>

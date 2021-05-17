@@ -224,8 +224,9 @@
             android:layout_height="160dp"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="18dp"
-            android:layout_marginEnd="15dp"
+            android:layout_marginEnd="5dp"
             android:contentDescription="@string/sara_bellum"
+            android:layout_below="@id/tvFullName"
             android:padding="5dp"
             android:src="@drawable/profileholder"
             app:strokeColor="@color/dark_brown"
@@ -345,7 +346,7 @@
 
         <TextView
             android:id="@+id/tvContact"
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvCityInfo"
             android:layout_margin="5dp"
@@ -420,7 +421,7 @@
 
         <TextView
             android:id="@+id/tvAbout"
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvEmailInfo"
             android:layout_margin="5dp"
@@ -446,7 +447,7 @@
 
         <TextView
             android:id="@+id/tvOccupation"
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvAboutInfo"
             android:layout_margin="5dp"
@@ -498,7 +499,7 @@
 
         <TextView
             android:id="@+id/tvFamily"
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvExpectationsInfo"
             android:layout_margin="5dp"

@@ -49,7 +49,7 @@
                 android:layout_marginTop="5dp"
                 android:text="@string/d_o_b"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
 
@@ -60,7 +60,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/time"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvAge"
@@ -70,7 +70,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/age"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvWeight"
@@ -80,7 +80,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/weight"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvHeight"
@@ -90,7 +90,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/height"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvBloodGroup"
@@ -100,7 +100,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/blood_group"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvHobbies"
@@ -110,7 +110,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/hobbies"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvEducation"
@@ -120,7 +120,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/education"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvLanguage"
@@ -130,7 +130,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/language"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvReligion"
@@ -140,7 +140,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/religon"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvSalary"
@@ -150,7 +150,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/salary"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvBirthPlace"
@@ -160,7 +160,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/birth_place"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvCity"
@@ -170,7 +170,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/city"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
 
             <TextView
@@ -180,9 +180,10 @@
                 android:layout_below="@+id/tvProfile"
                 android:layout_marginTop="5dp"
                 android:layout_toEndOf="@+id/tvDOB"
+                android:layout_toLeftOf="@id/imgProfile"
                 android:text="@string/date_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvTimeInfo"
@@ -192,7 +193,7 @@
                 android:layout_toEndOf="@+id/tvTime"
                 android:text="@string/time_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
 
             <TextView
@@ -203,15 +204,17 @@
                 android:layout_toEndOf="@+id/tvAge"
                 android:text="@string/age_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <ImageView
                 android:id="@+id/imgProfile"
                 android:layout_width="120dp"
-                android:layout_height="170dp"
+                android:layout_height="160dp"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="15dp"
+                android:layout_marginEnd="5dp"
                 android:layout_marginTop="4dp"
+
+                android:layout_below="@+id/tvFullName"
                 android:contentDescription="@string/sara_bellum"
                 android:src="@drawable/profileholder" />
 
@@ -223,7 +226,7 @@
                 android:layout_toEndOf="@+id/tvWeight"
                 android:text="@string/weight_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvHeightInfo"
@@ -233,7 +236,7 @@
                 android:layout_toEndOf="@+id/tvHeight"
                 android:text="@string/height_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
 
             <TextView
@@ -244,78 +247,78 @@
                 android:layout_toEndOf="@+id/tvBloodGroup"
                 android:text="@string/age_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvHobbiesInfo"
-                android:layout_width="90dp"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvBloodGroupInfo"
                 android:layout_toEndOf="@+id/tvHobbies"
                 android:text="@string/hobbies_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvEducationInfo"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvHobbiesInfo"
                 android:layout_toEndOf="@+id/tvEducation"
                 android:padding="2dp"
                 android:text="@string/education_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvLanguageInfo"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvEducationInfo"
                 android:layout_toEndOf="@+id/tvLanguage"
                 android:text="@string/language_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvReligionInfo"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvLanguageInfo"
                 android:layout_toEndOf="@+id/tvReligion"
                 android:text="@string/religon_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvSalaryInfo"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvReligionInfo"
                 android:layout_toEndOf="@+id/tvSalary"
                 android:text="@string/salary_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvBirthPlaceInfo"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvSalaryInfo"
                 android:layout_toEndOf="@+id/tvBirthPlace"
                 android:text="@string/birthplace_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvCityInfo"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvBirthPlaceInfo"
                 android:layout_toEndOf="@+id/tvCity"
                 android:text="@string/city_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvContact"
@@ -338,7 +341,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/call"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="10sp" />
 
             <TextView
                 android:id="@+id/tvAddress"
@@ -349,7 +352,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/address"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="10sp" />
 
             <TextView
                 android:id="@+id/tvEmail"
@@ -360,7 +363,7 @@
                 android:layout_marginStart="5dp"
                 android:text="@string/email"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="10sp" />
 
 
             <TextView
@@ -372,7 +375,7 @@
                 android:padding="2dp"
                 android:text="@string/phone_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvAddressInfo"
@@ -383,7 +386,7 @@
                 android:layout_toEndOf="@+id/tvAddress"
                 android:text="@string/address_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvEmailInfo"
@@ -394,7 +397,7 @@
                 android:layout_toEndOf="@+id/tvEmail"
                 android:text="@string/email_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvFamily"
@@ -417,7 +420,7 @@
                 android:padding="2dp"
                 android:text="@string/father_name"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="10sp" />
 
             <TextView
                 android:id="@+id/tvMotherName"
@@ -428,7 +431,7 @@
                 android:padding="2dp"
                 android:text="@string/mother_name"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="10sp" />
 
             <TextView
                 android:id="@+id/tvSibling"
@@ -439,7 +442,7 @@
                 android:padding="2dp"
                 android:text="@string/sibling"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="10sp" />
 
             <TextView
                 android:id="@+id/tvFatherNameInfo"
@@ -450,7 +453,7 @@
                 android:padding="2dp"
                 android:text="@string/father_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvMotherNameInfo"
@@ -461,7 +464,7 @@
                 android:padding="2dp"
                 android:text="@string/mother_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvSiblingInfo"
@@ -472,7 +475,7 @@
                 android:padding="2dp"
                 android:text="@string/sibling_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvAbout"
@@ -495,7 +498,7 @@
                 android:padding="2dp"
                 android:text="@string/about_details"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
 
             <TextView
@@ -521,7 +524,7 @@
                 android:padding="2dp"
                 android:text="@string/occupation_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
             <TextView
                 android:id="@+id/tvExpectations"
@@ -544,7 +547,7 @@
                 android:padding="2dp"
                 android:text="@string/expectation_info"
                 android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:textSize="8sp" />
 
 
         </RelativeLayout>

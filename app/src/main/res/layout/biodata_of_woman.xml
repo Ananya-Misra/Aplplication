@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/rlParentLayout"
@@ -25,17 +26,15 @@
 
         <TextView
             android:id="@+id/tvFullName"
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_marginRight="49dp"
             android:textAllCaps="true"
             android:fontFamily="@fonts/hortonregular"
             android:text="@string/sara_bellum"
             android:textColor="@color/black"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
 
     </RelativeLayout>
 

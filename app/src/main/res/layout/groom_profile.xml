@@ -447,7 +447,6 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="20dp"
                 android:background="@color/purple"
-                android:padding="2dp"
                 android:text="@string/about"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
@@ -470,7 +469,6 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:background="@color/purple"
-                android:padding="2dp"
                 android:text="@string/expectations"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
@@ -493,7 +491,6 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:background="@color/purple"
-                android:padding="2dp"
                 android:text="@string/occupation"
                 android:textAlignment="center"
                 android:textAllCaps="true"
@@ -517,7 +514,6 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:background="@color/purple"
-                android:padding="2dp"
                 android:text="@string/family_background"
                 android:textAlignment="center"
                 android:textAllCaps="true"
