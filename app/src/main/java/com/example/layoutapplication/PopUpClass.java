@@ -65,7 +65,7 @@ public class PopUpClass {
         layout_dot = popupView.findViewById(R.id.layout_dot);
         arrayList = new ArrayList<>();
 
-        UserBiodataModel userBiodataModel = new UserBiodataModel();
+        UserBiodataModel userBiodataModel = getUserNameModel();
         CustomPagerAdapter pagerAdapter = new CustomPagerAdapter(context, arrayList,userBiodataModel);
         viewPager.setAdapter(pagerAdapter);
         viewPager.setPageMargin(10);
@@ -89,6 +89,15 @@ public class PopUpClass {
 
             }
         });
+    }
+
+    private UserBiodataModel getUserNameModel() {
+
+        // Set all values
+        UserBiodataModel userBiodataModel = new UserBiodataModel();
+        userBiodataModel.setBioAboutMe("ajasbasjb");
+        userBiodataModel.setBioName("name");
+        return userBiodataModel;
     }
 
     public void addDot(int page_position, Context context,int count) {

@@ -111,8 +111,12 @@ public class CustomPagerAdapter extends PagerAdapter {
 
     private void setBiodataValues() {
         if (userBiodataModel!=null){
-            if(!TextUtils.isEmpty(userBiodataModel.getBioName())){
+            if(!TextUtils.isEmpty(userBiodataModel.getBioName()) && tvName!=null){
                 tvName.setText(userBiodataModel.getBioName());
+            }
+
+            if(!TextUtils.isEmpty(userBiodataModel.getBioAboutMe()) && tvAboutInfo!=null){
+                tvAboutInfo.setText(userBiodataModel.getBioAboutMe());
             }
         }
     }
