@@ -43,11 +43,10 @@
     <string name="salary_info">Unknown</string>
     <string name="birthplace_info">Unknown</string>
     <string name="city_info">Agra</string>
-    <string name="family_background">Family Background</string>
+    <string name="family_background">Family</string>
     <string name="father_name">Father\'s Name</string>
     <string name="mother_name">Mother\'s Name</string>
-    <string name="sibling">Sibling</string>
-    <string name="family">Family</string>
+    <string name="sibling">Sibling\'s Name</string>
     <string name="sibling_info">Unknown</string>
     <string name="mother_info">Unknown</string>
     <string name="father_info">Unknown</string>

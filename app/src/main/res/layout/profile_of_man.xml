@@ -288,6 +288,7 @@
                     android:layout_below="@id/vAboveName"
                     android:layout_marginStart="6dp"
                     android:text="@string/sara_bellum"
+                    android:textAllCaps="true"
                     android:textColor="@color/black"
                     android:textSize="17sp" />
 
@@ -557,7 +558,7 @@
                     android:background="@color/sea_green" />
 
                 <TextView
-                    android:id="@+id/tvExpecationsInfo"
+                    android:id="@+id/tvExpectationsInfo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/vBelowExpectations"
@@ -573,7 +574,7 @@
                     android:id="@+id/tvFamily"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/tvExpecationsInfo"
+                    android:layout_below="@+id/tvExpectationsInfo"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="6dp"
                     android:padding="2dp"
@@ -618,7 +619,7 @@
                     android:layout_below="@+id/tvMotherNameInfo"
                     android:layout_marginStart="5dp"
                     android:padding="2dp"
-                    android:text="Sibling"
+                    android:text="@string/sibling"
                     android:textColor="@color/black"
                     android:textSize="9sp" />
 

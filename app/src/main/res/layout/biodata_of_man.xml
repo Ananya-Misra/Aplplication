@@ -24,6 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
                 android:fontFamily="@fonts/hortonregular"
+                android:textAllCaps="true"
                 android:text="@string/sara_bellum"
                 android:textSize="25sp" />
 
@@ -404,7 +405,7 @@
                 android:background="@color/dark_green"
                 android:fontFamily="@fonts/hortonregular"
                 android:padding="2dp"
-                android:text="@string/family"
+                android:text="@string/family_background"
                 android:textAllCaps="true" />
 
             <TextView
@@ -469,7 +470,7 @@
                 android:layout_below="@+id/tvMotherNameInfo"
                 android:layout_toEndOf="@+id/tvSibling"
                 android:padding="2dp"
-                android:text="@string/language_info"
+                android:text="@string/sibling_info"
                 android:textColor="@color/black"
                 android:textSize="12sp" />
 
@@ -535,7 +536,7 @@
                 android:textAllCaps="true" />
 
             <TextView
-                android:id="@+id/tvExpecationsInfo"
+                android:id="@+id/tvExpectationsInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tvExpectations"

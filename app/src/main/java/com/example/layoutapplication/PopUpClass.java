@@ -95,8 +95,23 @@ public class PopUpClass {
 
         // Set all values
         UserBiodataModel userBiodataModel = new UserBiodataModel();
-        userBiodataModel.setBioAboutMe("ajasbasjb");
-        userBiodataModel.setBioName("name");
+
+        userBiodataModel.setBioName("Sara Bellum");//1
+        userBiodataModel.setBioDob("15/06/2010");//2
+        userBiodataModel.setBioTime("5:30 PM");//3
+        userBiodataModel.setBioHeight("5'5");//4
+        userBiodataModel.setBioBirthPlace("Srinagar");//5
+        userBiodataModel.setBioCityLiving("Jaipur");//6
+        userBiodataModel.setBioReligion("Christianity");//7
+        userBiodataModel.setBioEducation("Post Graduation in the field of something");//8
+        userBiodataModel.setBioOccupation("Doctor");//9
+        userBiodataModel.setBioSalary("6 lakh per annum");//10
+        userBiodataModel.setBioFatherName("Mr Unknown");//11
+        userBiodataModel.setBioMotherName("Mrs Unknown");//12
+        userBiodataModel.setBioSibling("Miss Prema Prasad and Mr Harim Prasad");//13
+        userBiodataModel.setBioAboutMe("Well I don't know much about myself I will tell you once I myself have figured that out.This text just need to be 3 lines long, I am trying to just do that.");//14
+        userBiodataModel.setBioContact("929299299292");//15
+        userBiodataModel.setBioLookingFor("This doesn't need to make sense the only requirement for this field is to be long enough so bla bla bla bla bla. ");//16
         return userBiodataModel;
     }
 

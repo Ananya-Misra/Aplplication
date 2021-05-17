@@ -15,11 +15,11 @@ public class UserBiodataModel {
     String bioZodiac = "";//not required
     String bioCasteExtra = "";//not required
     String bioEducation = "";
-    String bioOccupation = "";
-    String bioOrganisation = "";
+    String bioOccupation = "";//merged occupation and organization into one field
+    String bioOrganisation = "";//merged occupation and organization into one field
     String bioSalary = "";
 
-    String bioFatjerName = "";
+    String bioFatherName = "";
     String bioMotherName = "";
     String bioSibling = "";
     String bioPaternal = "";//not required
@@ -152,12 +152,12 @@ public class UserBiodataModel {
         this.bioSalary = bioSalary;
     }
 
-    public String getBioFatjerName() {
-        return bioFatjerName;
+    public String getBioFatherName() {
+        return bioFatherName;
     }
 
-    public void setBioFatjerName(String bioFatjerName) {
-        this.bioFatjerName = bioFatjerName;
+    public void setBioFatherName(String bioFatherName) {
+        this.bioFatherName = bioFatherName;
     }
 
     public String getBioMotherName() {
@@ -250,7 +250,7 @@ public class UserBiodataModel {
                 ", bioOccupation='" + bioOccupation + '\'' +
                 ", bioOrganisation='" + bioOrganisation + '\'' +
                 ", bioSalary='" + bioSalary + '\'' +
-                ", bioFatjerName='" + bioFatjerName + '\'' +
+                ", bioFatherName='" + bioFatherName + '\'' +
                 ", bioMotherName='" + bioMotherName + '\'' +
                 ", bioSibling='" + bioSibling + '\'' +
                 ", bioPaternal='" + bioPaternal + '\'' +

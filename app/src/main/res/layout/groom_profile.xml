@@ -434,6 +434,7 @@
                 android:layout_marginTop="25dp"
                 android:fontFamily="@fonts/hortonregular"
                 android:text="@string/sara_bellum"
+                android:textAllCaps="true"
                 android:textAlignment="center"
                 android:textColor="@color/purple"
                 android:textSize="25sp" />
@@ -475,7 +476,7 @@
                 android:textColor="@color/white" />
 
             <TextView
-                android:id="@+id/tvExpecationsInfo"
+                android:id="@+id/tvExpectationsInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tvExpectations"
@@ -488,7 +489,7 @@
                 android:id="@+id/tvOccupation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/tvExpecationsInfo"
+                android:layout_below="@id/tvExpectationsInfo"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:background="@color/purple"
@@ -552,7 +553,7 @@
                 android:layout_below="@+id/tvMotherNameInfo"
                 android:layout_marginStart="5dp"
                 android:padding="2dp"
-                android:text="Sibling"
+                android:text="@string/sibling"
                 android:textColor="@color/black"
                 android:textSize="9sp" />
 

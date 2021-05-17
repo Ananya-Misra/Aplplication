@@ -35,6 +35,7 @@
                 android:layout_marginTop="3dp"
                 android:layout_toEndOf="@+id/imgProfile"
                 android:text="@string/sara_bellum"
+                android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -419,7 +420,7 @@
                 android:background="@color/maroon" />
 
             <TextView
-                android:id="@+id/tvExpecationsInfo"
+                android:id="@+id/tvExpectationsInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/vBelowExpectations"
@@ -433,7 +434,7 @@
                 android:id="@+id/tvOccupation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/tvExpecationsInfo"
+                android:layout_below="@id/tvExpectationsInfo"
                 android:layout_marginTop="5dp"
                 android:padding="2dp"
                 android:text="@string/occupation"
@@ -519,7 +520,7 @@
                 android:layout_below="@+id/tvReligionInfo"
                 android:layout_marginStart="10dp"
                 android:padding="2dp"
-                android:text="Sibling"
+                android:text="@string/sibling"
                 android:textColor="@color/black"
                 android:textSize="9sp" />
 

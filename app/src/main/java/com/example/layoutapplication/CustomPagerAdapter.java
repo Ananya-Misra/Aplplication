@@ -93,7 +93,7 @@ public class CustomPagerAdapter extends PagerAdapter {
         tvDOBInfo = view.findViewById(R.id.tvDOBInfo);
         tvEmailInfo = view.findViewById(R.id.tvEmailInfo);
         tvEducationInfo = view.findViewById(R.id.tvEducationInfo);
-        tvExpectationsInfo = view.findViewById(R.id.tvExpecationsInfo);
+        tvExpectationsInfo = view.findViewById(R.id.tvExpectationsInfo);
         tvFatherNameInfo = view.findViewById(R.id.tvFatherNameInfo);
         tvHobbiesInfo = view.findViewById(R.id.tvHobbiesInfo);
         tvHeightInfo = view.findViewById(R.id.tvHeightInfo);
@@ -112,12 +112,56 @@ public class CustomPagerAdapter extends PagerAdapter {
     private void setBiodataValues() {
         if (userBiodataModel!=null){
             if(!TextUtils.isEmpty(userBiodataModel.getBioName()) && tvName!=null){
-                tvName.setText(userBiodataModel.getBioName());
+                tvName.setText(userBiodataModel.getBioName());//1
             }
-
+            if(!TextUtils.isEmpty(userBiodataModel.getBioDob()) && tvDOBInfo!=null){
+                tvDOBInfo.setText(userBiodataModel.getBioDob());//2
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioTime()) && tvTimeInfo!=null){
+                tvTimeInfo.setText(userBiodataModel.getBioTime());//3
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioHeight()) && tvHeightInfo!=null){
+                tvHeightInfo.setText(userBiodataModel.getBioHeight());//4
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioBirthPlace()) && tvBirthPlaceInfo!=null){
+                tvBirthPlaceInfo.setText(userBiodataModel.getBioBirthPlace());//5
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioCityLiving()) && tvCityInfo!=null){
+                tvCityInfo.setText(userBiodataModel.getBioCityLiving());//6
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioReligion()) && tvReligionInfo!=null){
+                tvReligionInfo.setText(userBiodataModel.getBioReligion());//7
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioEducation()) && tvEducationInfo!=null){
+                tvEducationInfo.setText(userBiodataModel.getBioEducation());//8
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioOccupation()) && tvOcuppationInfo!=null){
+                tvOcuppationInfo.setText(userBiodataModel.getBioOccupation());//9
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioSalary()) && tvSalaryInfo!=null){
+                tvSalaryInfo.setText(userBiodataModel.getBioSalary());//10
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioFatherName()) && tvFatherNameInfo!=null){
+                tvFatherNameInfo.setText(userBiodataModel.getBioFatherName());//11
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioMotherName()) && tvMotherNameInfo!=null){
+                tvMotherNameInfo.setText(userBiodataModel.getBioMotherName());//12
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioSibling()) && tvSiblingInfo!=null){
+                tvSiblingInfo.setText(userBiodataModel.getBioSibling());//13
+            }
             if(!TextUtils.isEmpty(userBiodataModel.getBioAboutMe()) && tvAboutInfo!=null){
-                tvAboutInfo.setText(userBiodataModel.getBioAboutMe());
+                tvAboutInfo.setText(userBiodataModel.getBioAboutMe());//14
             }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioContact()) && tvCallInfo!=null){
+                tvCallInfo.setText(userBiodataModel.getBioContact());//15
+            }
+            if(!TextUtils.isEmpty(userBiodataModel.getBioLookingFor()) && tvExpectationsInfo!=null){
+                tvExpectationsInfo.setText(userBiodataModel.getBioLookingFor());//16
+            }
+//            if(!TextUtils.isEmpty(userBiodataModel.getBioProfileImage()) && imgProfile!=null){
+//                imgProfile.setImageResource(userBiodataModel.getBioProfileImage());//17
+//            }
         }
     }
 

@@ -36,6 +36,7 @@
                     android:padding="3dp"
                     android:text="@string/sara_bellum"
                     android:textColor="@color/brown"
+                    android:textAllCaps="true"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -475,16 +476,16 @@
                     android:padding="2dp"
                     android:text="@string/expectations"
                     android:textColor="@color/brown"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"  />
 
                 <TextView
-                    android:id="@+id/tvExpecationsInfo"
+                    android:id="@+id/tvExpectationsInfo"
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvExpectations"
                     android:layout_marginBottom="10dp"
-                    android:padding="4dp"
+                    android:padding="2dp"
                     android:text="@string/expectation_info"
                     android:textColor="@color/black"
                     android:textSize="10sp" />
@@ -492,20 +493,21 @@
                     android:id="@+id/tvFamily"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/tvExpecationsInfo"
-                    android:layout_margin="5dp"
+                    android:layout_below="@+id/tvExpectationsInfo"
+                    android:layout_marginTop="5dp"
                     android:padding="2dp"
                     android:textColor="@color/brown"
                     android:textSize="12sp"
                     android:text="@string/family_background"
-                    android:textAllCaps="true" />
+                    android:textAllCaps="true"
+                    />
 
                 <TextView
                     android:id="@+id/tvFatherName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvFamily"
-                    android:padding="4dp"
+                    android:padding="2dp"
                     android:text="@string/father_name"
                     android:textColor="@color/brown"
                     android:textSize="10sp" />
@@ -515,7 +517,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvFatherName"
-                    android:padding="4dp"
+                    android:padding="2dp"
                     android:text="@string/father_info"
                     android:textColor="@color/black"
                     android:textSize="8sp" />
@@ -525,7 +527,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvFatherNameInfo"
-                    android:padding="4dp"
+                    android:padding="2dp"
                     android:text="@string/mother_name"
                     android:textColor="@color/brown"
                     android:textSize="10sp" />
@@ -535,7 +537,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvMotherName"
-                    android:padding="4dp"
+                    android:padding="2dp"
                     android:text="@string/mother_info"
                     android:textColor="@color/black"
                     android:textSize="8sp" />
@@ -544,7 +546,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvMotherNameInfo"
-                    android:padding="4dp"
+                    android:padding="2dp"
                     android:text="@string/sibling"
                     android:textColor="@color/brown"
                     android:textSize="10sp" />
@@ -554,7 +556,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvSibling"
-                    android:padding="4dp"
+                    android:padding="2dp"
                     android:text="@string/sibling_info"
                     android:textColor="@color/black"
                     android:textSize="8sp" />
