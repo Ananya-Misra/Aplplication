@@ -13,10 +13,11 @@
 
         <TextView
             android:id="@+id/tvFullName"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="4dp"
             android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/imgProfile"
             android:fontFamily="@fonts/hortonregular"
             android:text="@string/sara_bellum"
             android:textAllCaps="true"
@@ -226,7 +227,6 @@
             android:layout_marginTop="18dp"
             android:layout_marginEnd="5dp"
             android:contentDescription="@string/sara_bellum"
-            android:layout_below="@id/tvFullName"
             android:padding="5dp"
             android:src="@drawable/profileholder"
             app:strokeColor="@color/dark_brown"
