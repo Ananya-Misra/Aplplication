@@ -88,6 +88,7 @@ public class PopUpClass {
             public void onPageScrollStateChanged(int i) {
 
             }
+          
         });
     }
 
@@ -121,7 +122,7 @@ public class PopUpClass {
         userBiodataModel.setBioLookingFor("This doesn't need to make sense the only requirement for this field is to be long enough so bla bla bla bla bla. ");//23
         userBiodataModel.setBioProfileImage("R.drawable.character");//24
         return userBiodataModel;
-    }
+   }
 
     public void addDot(int page_position, Context context,int count) {
         dot = new TextView[count];

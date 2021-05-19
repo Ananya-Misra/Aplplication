@@ -20,7 +20,6 @@
             android:layout_marginTop="8dp"
             android:layout_toLeftOf="@+id/imgProfile"
             android:fontFamily="@fonts/hortonregular"
-            android:text="@string/sara_bellum"
             android:textAllCaps="true"
             android:textColor="@color/dark_brown"
             android:textSize="24sp" />
@@ -193,7 +192,6 @@
             android:layout_marginTop="5dp"
             android:layout_toEndOf="@+id/tvDOB"
             android:padding="2dp"
-            android:text="@string/date_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -204,7 +202,6 @@
             android:layout_below="@+id/tvDOBInfo"
             android:layout_toEndOf="@+id/tvTime"
             android:padding="2dp"
-            android:text="@string/time_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -216,7 +213,6 @@
             android:layout_below="@+id/tvTimeInfo"
             android:layout_toEndOf="@+id/tvAge"
             android:padding="2dp"
-            android:text="@string/age_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -229,7 +225,6 @@
             android:layout_marginEnd="5dp"
             android:contentDescription="@string/sara_bellum"
             android:padding="5dp"
-            android:src="@drawable/profileholder"
             app:strokeColor="@color/dark_brown"
             app:strokeWidth="5dp" />
 
@@ -240,7 +235,6 @@
             android:layout_below="@+id/tvAgeInfo"
             android:layout_toEndOf="@+id/tvWeight"
             android:padding="2dp"
-            android:text="@string/weight_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -251,7 +245,6 @@
             android:layout_below="@+id/tvWeightInfo"
             android:layout_toEndOf="@+id/tvHeight"
             android:padding="2dp"
-            android:text="@string/height_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -263,7 +256,6 @@
             android:layout_below="@+id/tvHeightInfo"
             android:layout_toEndOf="@+id/tvBloodGroup"
             android:padding="2dp"
-            android:text="@string/age_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -274,7 +266,6 @@
             android:layout_below="@+id/tvBloodGroupInfo"
             android:layout_toEndOf="@+id/tvHobbies"
             android:padding="2dp"
-            android:text="@string/hobbies_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -285,7 +276,6 @@
             android:layout_below="@+id/tvHobbiesInfo"
             android:layout_toEndOf="@+id/tvEducation"
             android:padding="2dp"
-            android:text="@string/education_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -296,7 +286,6 @@
             android:layout_below="@+id/tvEducationInfo"
             android:layout_toEndOf="@+id/tvLanguage"
             android:padding="2dp"
-            android:text="@string/language_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -307,7 +296,6 @@
             android:layout_below="@+id/tvLanguageInfo"
             android:layout_toEndOf="@+id/tvReligion"
             android:padding="2dp"
-            android:text="@string/religon_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -318,7 +306,6 @@
             android:layout_below="@+id/tvReligionInfo"
             android:layout_toEndOf="@+id/tvSalary"
             android:padding="2dp"
-            android:text="@string/salary_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -329,7 +316,6 @@
             android:layout_below="@+id/tvSalaryInfo"
             android:layout_toEndOf="@+id/tvBirthPlace"
             android:padding="2dp"
-            android:text="@string/birthplace_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -340,7 +326,6 @@
             android:layout_below="@+id/tvBirthPlaceInfo"
             android:layout_toEndOf="@+id/tvCity"
             android:padding="2dp"
-            android:text="@string/city_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -396,7 +381,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvContact"
             android:layout_toEndOf="@+id/tvCall"
-            android:text="@string/phone_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -406,7 +390,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvCallInfo"
             android:layout_toEndOf="@+id/tvAddress"
-            android:text="@string/address_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -416,7 +399,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvAddressInfo"
             android:layout_toEndOf="@+id/tvEmail"
-            android:text="@string/email_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -441,7 +423,6 @@
             android:layout_below="@+id/tvAbout"
             android:layout_marginStart="5dp"
             android:padding="2dp"
-            android:text="@string/about_details"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -469,7 +450,6 @@
             android:layout_below="@+id/tvOccupation"
             android:layout_marginStart="5dp"
             android:padding="2dp"
-            android:text="@string/occupation_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -494,7 +474,6 @@
             android:layout_below="@id/tvExpectations"
             android:layout_marginStart="5dp"
             android:padding="2dp"
-            android:text="@string/expectation_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -554,7 +533,6 @@
             android:layout_marginTop="5dp"
             android:layout_toEndOf="@+id/tvFatherName"
             android:padding="2dp"
-            android:text="@string/date_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -565,7 +543,6 @@
             android:layout_below="@+id/tvFatherNameInfo"
             android:layout_toEndOf="@+id/tvMotherName"
             android:padding="2dp"
-            android:text="@string/hobbies_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
 
@@ -576,7 +553,6 @@
             android:layout_below="@+id/tvMotherNameInfo"
             android:layout_toEndOf="@+id/tvSibling"
             android:padding="2dp"
-            android:text="@string/sibling_info"
             android:textColor="@color/black"
             android:textSize="12sp" />
     </RelativeLayout>
